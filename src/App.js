@@ -9,7 +9,7 @@ import Error from "./components/Error";
 
 const AppLayout = () => {
   return (
-    <div className="app">
+    <div className="m-2">
       <Header />
       <Outlet />
     </div>
