@@ -1,6 +1,7 @@
 import React from "react";
+import { RestaurantList } from "../types/restaurant";
 
-const useFetchRestaurants = async () => {
+const useFetchRestaurants = async (): Promise<[] | RestaurantList> => {
     let res = await fetch('https://www.swiggy.com/dapi/restaurants/list/v5?lat=12.9587457&lng=77.5511944&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING')
     res = await res.json();
     console.log(res)

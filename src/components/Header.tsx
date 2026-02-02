@@ -1,8 +1,8 @@
-import React from "react";
+import {ReactElement, useState} from "react";
 import {Link} from "react-router";
 
-function Header() {
-  const [buttonState, setButtonState] = React.useState("Login");
+function Header():ReactElement {
+  const [buttonState, setButtonState] = useState<>("Login");
 
   return (
     <div className="border-2 h-16 rounded-xl flex justify-between items-center p-2">
@@ -15,10 +15,10 @@ function Header() {
       </div>
       <ul className="flex-center gap-4 h-full">
         <li>
-          <Link className="underline">About Us</Link>
+          <Link className="underline" to="/about">About Us</Link>
         </li>
-        <li><Link className="underline">Contact Us</Link></li>
-        <li><Link className="underline">Cart</Link></li>
+        <li><Link className="underline" to="/contact">Contact Us</Link></li>
+        <li><Link className="underline" to="/">Cart</Link></li>
       </ul>
       <button
         className="px-4 py-1 bg-slate-100 rounded-md w-24"
