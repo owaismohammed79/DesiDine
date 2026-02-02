@@ -1,7 +1,8 @@
 import React from "react";
+import { RestaurantList } from "../types/restaurant";
 
-const useFetchRestaurants = async () => {
-    let res = await fetch('https://www.swiggy.com/dapi/restaurants/list/v5?lat=12.9587457&lng=77.5511944&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING')
+const useFetchRestaurants = async (): Promise<[] | RestaurantList> => {
+    let res = await fetch('https://foodfire.onrender.com/api/restaurants?lat=12.959913533262798&lng=77.5499909&page_type=DESKTOP_WEB_LISTING')
     res = await res.json();
     console.log(res)
 
@@ -18,6 +19,7 @@ const useFetchRestaurants = async () => {
             name: res.info.name,
             rating: res.info.avgRating,
             location: res.info.areaName,
+            promoted: res.info?.promoted ?? false,
             imgUrl: `https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/` + res.info.cloudinaryImageId
         }
     })

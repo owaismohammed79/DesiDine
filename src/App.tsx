@@ -1,4 +1,4 @@
-import React from "react";
+import {ReactElement} from "react";
 import ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider, Outlet } from "react-router";
 import Header from "./components/Header";
@@ -7,7 +7,7 @@ import About from "./components/About";
 import Contact from "./components/Contact";
 import Error from "./components/Error";
 
-const AppLayout = () => {
+const AppLayout = (): ReactElement => {
   return (
     <div className="m-2">
       <Header />
@@ -38,5 +38,5 @@ const appRouter = createBrowserRouter([
   },
 ]);
 
-const root = ReactDOM.createRoot(document.getElementById("root"));
+const root = ReactDOM.createRoot(document.getElementById("root") as HTMLDivElement);
 root.render(<RouterProvider router={appRouter} />);
