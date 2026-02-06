@@ -4,6 +4,7 @@ import { RestaurantList } from "../types/restaurant";
 import RestaurantCard, {withPromotedLabel} from "./RestaurantCard";
 
 
+
 function Body():ReactElement {
   const [resList, setResList] = useState<RestaurantList>([]);
   const [filteredList, setFilteredList] = useState<RestaurantList>([]);
