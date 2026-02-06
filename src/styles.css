@@ -1,5 +1,9 @@
 @import "tailwindcss";
 
+body{
+  background-color: #fff7d6;
+}
+
 img {
   display: block;
   max-width: 100%;
