@@ -2,7 +2,7 @@ import { ReactElement } from "react";
 import { Restaurant } from "../types/restaurant";
 import { Link } from "react-router";
 
-const RestaurantCard = ({ res }: Restaurant): ReactElement => {
+const RestaurantCard = ({ res }: {res: Restaurant}): ReactElement => {
   return (
     <Link to={`/restaurant/${res.id}`}>
       <div className="border w-72 rounded-xl h-[31rem] shadow-md bg-gray-100 hover:bg-gray-200 hover:border-amber-800 hover:border-2">
