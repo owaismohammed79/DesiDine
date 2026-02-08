@@ -1,10 +1,10 @@
-import {ReactElement, useState} from "react";
-import {Link} from "react-router";
+import { ReactElement, useState } from "react";
+import { Link } from "react-router";
 import useOnlineStatus from "../utils/useOnlineStatus";
 
-function Header():ReactElement {
+function Header(): ReactElement {
   const [buttonState, setButtonState] = useState<"Login" | "Logout">("Login");
-  const isOnline = useOnlineStatus()
+  const isOnline = useOnlineStatus();
 
   return (
     <div className="border h-16 rounded-xl flex justify-between items-center p-2 bg-slate-100 shadow-lg">
@@ -17,18 +17,30 @@ function Header():ReactElement {
       </div>
       <ul className="flex-center gap-4 h-full">
         <li>
-          <Link className="underline" to="/">Home</Link>
+          <Link className="underline" to="/">
+            Home
+          </Link>
         </li>
         <li>
-          <Link className="underline" to="/about">About Us</Link>
+          <Link className="underline" to="/about">
+            About Us
+          </Link>
         </li>
-        <li><Link className="underline" to="/contact">Contact Us</Link></li>
-        <li><Link className="underline" to="/">Cart</Link></li>
+        <li>
+          <Link className="underline" to="/contact">
+            Contact Us
+          </Link>
+        </li>
+        <li>
+          <Link className="underline" to="/cart">
+            Cart
+          </Link>
+        </li>
       </ul>
       <div>
         <span className="font-bold m-1">
-          {isOnline ? 'Online 🟢': 'Offline 🔴'}
-        </span> 
+          {isOnline ? "Online 🟢" : "Offline 🔴"}
+        </span>
         <button
           className="px-4 py-1 bg-slate-200 rounded-md w-24"
           onClick={() => {
