@@ -7,6 +7,8 @@ function About():ReactElement {
   if (loading) return <p>Loading team...</p>;
 
   return (
+    <>
+    <h1 className='text-3xl font-bold text-gray-900 ml-4 py-4'>Meet the Team</h1>
     <div className='flex gap-3 mt-3 justify-center flex-wrap'>
       {
         users.map((user) => (
@@ -20,6 +22,7 @@ function About():ReactElement {
         ))
       }
     </div>
+    </>
   )
 }
 
