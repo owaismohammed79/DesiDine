@@ -1,0 +1,66 @@
+[
+    {
+        "id": "1026651",
+        "name": "Chinese Wok",
+        "rating": 4.2,
+        "location": "The Palace, Godadara Road",
+        "promoted": false,
+        "imgUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/RX_THUMBNAIL/IMAGES/VENDOR/2025/1/28/a44aaf25-3312-47f1-b028-6a28e9da5513_1026651.jpg"
+    },
+    {
+        "id": "766502",
+        "name": "Theobroma",
+        "rating": 4.7,
+        "location": "Athwa",
+        "promoted": false,
+        "imgUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/RX_THUMBNAIL/IMAGES/VENDOR/2025/10/16/57381e18-b9c6-4cf1-a9cb-6bc3bf72ecc9_766502.JPG"
+    },
+    {
+        "id": "72605",
+        "name": "Pizza Hut",
+        "rating": 4.3,
+        "location": "Athwa",
+        "promoted": false,
+        "imgUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/RX_THUMBNAIL/IMAGES/VENDOR/2025/9/1/3e0611f1-2572-464f-baca-c3dcf3edc750_72605.JPG"
+    },
+    {
+        "id": "1134895",
+        "name": "Burger King",
+        "rating": 4.4,
+        "location": "Milestone Vibrant, opposite Apple Hospital",
+        "promoted": false,
+        "imgUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/RX_THUMBNAIL/IMAGES/VENDOR/2025/7/1/20375e0a-ff7b-4b95-8070-73b3e9df02fa_1134895.jpg"
+    },
+    {
+        "id": "675027",
+        "name": "Olio - The Wood Fired Pizzeria",
+        "rating": 4.1,
+        "location": "Jivkor Nagar Co.Op.Hs",
+        "promoted": false,
+        "imgUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/RX_THUMBNAIL/IMAGES/VENDOR/2025/6/17/bf073543-46e7-4002-9af6-1e55a202a1ac_675027.JPG"
+    },
+    {
+        "id": "424877",
+        "name": "Dilliwale Pahelvanjee'S Cholle Bhature",
+        "rating": 4.7,
+        "location": "New Textile Market",
+        "promoted": false,
+        "imgUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/tajbfx84hahoum5w9niz"
+    },
+    {
+        "id": "205488",
+        "name": "Jay Jalaram Thali",
+        "rating": 4,
+        "location": "Gopipura",
+        "promoted": false,
+        "imgUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/56d5abe62452d827b7480c4f5515460a"
+    },
+    {
+        "id": "257785",
+        "name": "Sizzling Culture",
+        "rating": 4.1,
+        "location": "Adajan",
+        "promoted": false,
+        "imgUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/aihw7cifyarkp9e9uo5g"
+    }
+]

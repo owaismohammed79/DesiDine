@@ -1,0 +1,2070 @@
+{
+    "id": "54780026",
+    "title": "Gifting",
+    "items": [
+        {
+            "card": {
+                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                "info": {
+                    "id": "184474961",
+                    "name": "55% Dark Chocolate with Cranberry [60g]",
+                    "category": "Gifting",
+                    "description": "Artisanal chocolate bar that brings together flavours of the finest Indian cocoa beans, with a unique balance of tartness and sweetness of cranberries. Allergens - Soy, Milk. May contain Nut, Wheat, Barley.",
+                    "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/10/24/188afff7-1ae8-496e-802b-5d88625b41c2_d0fc725c-d804-4364-a5d5-4546e0839a80.jpg",
+                    "inStock": 1,
+                    "isVeg": 1,
+                    "price": 21000,
+                    "itemAttribute": {
+                        "vegClassifier": "VEG"
+                    },
+                    "type": "ITEM",
+                    "parentId": "112076458"
+                },
+                "hideRestaurantDetails": true
+            }
+        },
+        {
+            "card": {
+                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                "info": {
+                    "id": "184474962",
+                    "name": "55% Dark Chocolate with Sea Salt & Almond [60g]",
+                    "category": "Gifting",
+                    "description": "Artisanal chocolate bar crafted with unique flavours of the finest Indian cocoa beans, roasted almonds and the perfect touch of salt. Allergens - Nut, Soy, Milk. May contain Wheat, Barley.",
+                    "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/10/24/c92121af-2a52-4d1a-a3f6-6aaaa97afb9b_05d89df3-8dbd-4f96-9b41-e329aaf3ef30.jpg",
+                    "inStock": 1,
+                    "isVeg": 1,
+                    "price": 21000,
+                    "itemAttribute": {
+                        "vegClassifier": "VEG"
+                    },
+                    "type": "ITEM",
+                    "parentId": "112076459"
+                },
+                "hideRestaurantDetails": true
+            }
+        },
+        {
+            "card": {
+                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                "info": {
+                    "id": "148248987",
+                    "name": "Cookies Collection Set of 3",
+                    "category": "Gifting",
+                    "description": "Customize a gift set of 3 from our range of signature cookies and biscuits - Coconut Macaroons (8 pcs), Orange Cookies (12 pcs), Chocolate Chip Cookies (8 pcs), Double Choco Chip Cookies (8 pcs), Butter Cookies (10 pcs), Chocolate Coated Biscuits (9 pcs), Hazelnut Cookies (10 pcs)",
+                    "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/10/10/a808c6a8-a3d8-4970-a615-7c2d2f505b8c_5674bd54-65ea-4217-a153-cdd935589e90.jpg",
+                    "inStock": 1,
+                    "isVeg": 1,
+                    "price": 6500,
+                    "addons": [
+                        {
+                            "groupId": "246685106",
+                            "groupName": "Choose any 3 options",
+                            "choices": [
+                                {
+                                    "id": "121650854",
+                                    "name": "Double Choco Chip Cookies [8 Pieces]",
+                                    "price": 26000,
+                                    "inStock": 1,
+                                    "isVeg": 1,
+                                    "isEnabled": 1
+                                },
+                                {
+                                    "id": "121650855",
+                                    "name": "Hazelnut Cookies [10 Pieces]",
+                                    "price": 37500,
+                                    "inStock": 1,
+                                    "isVeg": 1,
+                                    "isEnabled": 1
+                                },
+                                {
+                                    "id": "121650857",
+                                    "name": "Chocolate Chip Cookies [8 Pieces]",
+                                    "price": 25000,
+                                    "inStock": 1,
+                                    "isVeg": 1,
+                                    "isEnabled": 1
+                                },
+                                {
+                                    "id": "121650858",
+                                    "name": "Orange Cookies [12 Pieces]",
+                                    "price": 17500,
+                                    "inStock": 1,
+                                    "isVeg": 1,
+                                    "isEnabled": 1
+                                },
+                                {
+                                    "id": "121650851",
+                                    "name": "Butter Cookies [10 Pieces]",
+                                    "price": 29000,
+                                    "isVeg": 1,
+                                    "isEnabled": 1
+                                }
+                            ],
+                            "maxAddons": 3,
+                            "maxFreeAddons": -1,
+                            "minAddons": 3
+                        }
+                    ],
+                    "itemAttribute": {
+                        "vegClassifier": "VEG"
+                    },
+                    "type": "ITEM",
+                    "parentId": "92687788"
+                },
+                "hideRestaurantDetails": true
+            }
+        },
+        {
+            "card": {
+                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                "info": {
+                    "id": "183659120",
+                    "name": "Festive Chocolate Rochers Gift Box [6 Pcs]",
+                    "category": "Gifting",
+                    "description": "Chocolate coated delicacies in an assortment of flavours - Almond and raisin coated in dark chocolate (2), Hazelnut and orange coated in milk chocolate (2), Dry figs and crunchy chocolate puffs coated in dark chocolate (2). Allergens - Nuts, Wheat, Milk, Soy.",
+                    "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/10/10/a1da7c93-8f2a-44f6-a9c8-84f593c3ba6b_caef6767-54c4-4f41-bb01-46e4fdcbfeef.jpg",
+                    "inStock": 1,
+                    "isVeg": 1,
+                    "price": 45000,
+                    "finalPrice": 36000,
+                    "itemAttribute": {
+                        "vegClassifier": "VEG"
+                    },
+                    "type": "ITEM",
+                    "offerTags": [
+                        {
+                            "title": "20% OFF",
+                            "textColor": "#DB6742",
+                            "backgroundColor": "#FAE8E3",
+                            "matchText": "SILD"
+                        }
+                    ],
+                    "itemNudgeType": "CouponlessSild",
+                    "offerIds": [
+                        "38ad82b5-3b14-458b-b6c7-7de15700ff63"
+                    ],
+                    "parentId": "112500239"
+                },
+                "hideRestaurantDetails": true
+            }
+        },
+        {
+            "card": {
+                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                "info": {
+                    "id": "148248991",
+                    "name": "Cookies Collection Set of 4",
+                    "category": "Gifting",
+                    "description": "Customize a gift set of 4 from our range of signature cookies and biscuits - Coconut Macaroons (8 pcs), Orange Cookies (12 pcs), Chocolate Chip Cookies (8 pcs), Double Choco Chip Cookies (8 pcs), Butter Cookies (10 pcs), Chocolate Coated Biscuits (9 pcs), Hazelnut Cookies (10 pcs)",
+                    "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/10/10/06076677-0e2e-494d-9e31-a69a75aacd05_cad6f923-d5cc-410f-aac0-7a489b6ecfc3.jpg",
+                    "inStock": 1,
+                    "isVeg": 1,
+                    "price": 9500,
+                    "addons": [
+                        {
+                            "groupId": "246685105",
+                            "groupName": "Choose any 4 options",
+                            "choices": [
+                                {
+                                    "id": "121650854",
+                                    "name": "Double Choco Chip Cookies [8 Pieces]",
+                                    "price": 26000,
+                                    "inStock": 1,
+                                    "isVeg": 1,
+                                    "isEnabled": 1
+                                },
+                                {
+                                    "id": "121650855",
+                                    "name": "Hazelnut Cookies [10 Pieces]",
+                                    "price": 37500,
+                                    "inStock": 1,
+                                    "isVeg": 1,
+                                    "isEnabled": 1
+                                },
+                                {
+                                    "id": "121650857",
+                                    "name": "Chocolate Chip Cookies [8 Pieces]",
+                                    "price": 25000,
+                                    "inStock": 1,
+                                    "isVeg": 1,
+                                    "isEnabled": 1
+                                },
+                                {
+                                    "id": "121650858",
+                                    "name": "Orange Cookies [12 Pieces]",
+                                    "price": 17500,
+                                    "inStock": 1,
+                                    "isVeg": 1,
+                                    "isEnabled": 1
+                                },
+                                {
+                                    "id": "121650851",
+                                    "name": "Butter Cookies [10 Pieces]",
+                                    "price": 29000,
+                                    "isVeg": 1,
+                                    "isEnabled": 1
+                                }
+                            ],
+                            "maxAddons": 4,
+                            "maxFreeAddons": -1,
+                            "minAddons": 4
+                        }
+                    ],
+                    "itemAttribute": {
+                        "vegClassifier": "VEG"
+                    },
+                    "type": "ITEM",
+                    "parentId": "92687789"
+                },
+                "hideRestaurantDetails": true
+            }
+        },
+        {
+            "card": {
+                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                "info": {
+                    "id": "184277110",
+                    "name": "Festive Mithai Confectionery Gift Box [9 Pcs]",
+                    "category": "Gifting",
+                    "description": "An assortment of bite-size confectioneries - Badam Pak, Besan Biscoff, Coffee Peanut, Almond Bite, Pistachio Carrot Halwa, Mysore Cup, Butter Cookie Gianduja, Hazelnut Bite, Peanut Caramel.        Allergens - Nuts, Wheat, Milk, Soy.",
+                    "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/10/9/f0cc25ca-c721-416b-8e16-c52a92a21341_d4fc929f-97a5-45ef-8d72-8c6cef0f48cb.jpg",
+                    "inStock": 1,
+                    "isVeg": 1,
+                    "price": 57500,
+                    "finalPrice": 28800,
+                    "itemAttribute": {
+                        "vegClassifier": "VEG"
+                    },
+                    "type": "ITEM",
+                    "offerTags": [
+                        {
+                            "title": "50% OFF",
+                            "textColor": "#DB6742",
+                            "backgroundColor": "#FAE8E3",
+                            "matchText": "SILD"
+                        }
+                    ],
+                    "itemNudgeType": "CouponlessSild",
+                    "offerIds": [
+                        "2a5e3851-0029-418a-a350-005260399259"
+                    ],
+                    "parentId": "112500245"
+                },
+                "hideRestaurantDetails": true
+            }
+        },
+        {
+            "card": {
+                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                "info": {
+                    "id": "183659132",
+                    "name": "Savoury Cookies Collection Set of 3",
+                    "category": "Gifting",
+                    "description": "Gift set of our signature savoury cookies - Spicy Peanut Cookies [8 Pcs], Chilli & Cheese Cookies [10 Pcs], Jeera Cookies [10 Pcs]",
+                    "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/10/10/c32a6def-8ead-4b99-ba4d-88b6ecdecf21_631b9a42-9790-4235-955e-327a32e81cd4.jpg",
+                    "inStock": 1,
+                    "isVeg": 1,
+                    "price": 57500,
+                    "itemAttribute": {
+                        "vegClassifier": "VEG"
+                    },
+                    "type": "ITEM",
+                    "parentId": "111524276"
+                },
+                "hideRestaurantDetails": true
+            }
+        },
+        {
+            "card": {
+                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                "info": {
+                    "id": "127045627",
+                    "name": "Almond Rocks (250g)",
+                    "category": "Gifting",
+                    "description": "Perfectly toasted and crisp almonds coated in dark chocolate. Allergens - Nuts, Soya",
+                    "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/10/10/cbe0ac2e-ac62-4dff-a2a8-8ac8644c89c5_f91e59a3-f729-46ce-aeae-bef89e394a09.jpg",
+                    "inStock": 1,
+                    "isVeg": 1,
+                    "price": 65000,
+                    "itemAttribute": {
+                        "vegClassifier": "VEG"
+                    },
+                    "type": "ITEM",
+                    "ratings": {
+                        "aggregatedRating": {
+                            "rating": "5.0",
+                            "ratingCount": "4 ratings",
+                            "ratingCountV2": "4"
+                        },
+                        "ratingsPresentationConfig": {
+                            "bgGradient": {
+                                "colours": [
+                                    "#C8F9E5",
+                                    "#FFFFFF"
+                                ],
+                                "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                            },
+                            "ratingIconColor": "rating_very_good",
+                            "ratingTextColor": "rating_very_good",
+                            "ratingCountTextColor": "rating_very_good",
+                            "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                            "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                        }
+                    },
+                    "parentId": "824376"
+                },
+                "hideRestaurantDetails": true
+            }
+        },
+        {
+            "card": {
+                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                "info": {
+                    "id": "127045628",
+                    "name": "Almond Rocks (500g)",
+                    "category": "Gifting",
+                    "description": "Perfectly toasted and crisp almonds coated in dark chocolate. Allergens - Nuts, Soya",
+                    "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/10/10/6e59bbef-c2aa-4042-af09-8668496ad11b_06a2fefc-8ce1-4eab-8978-9bd51d89be59.jpg",
+                    "inStock": 1,
+                    "isVeg": 1,
+                    "price": 130000,
+                    "itemAttribute": {
+                        "vegClassifier": "VEG"
+                    },
+                    "type": "ITEM",
+                    "parentId": "824380"
+                },
+                "hideRestaurantDetails": true
+            }
+        },
+        {
+            "card": {
+                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                "info": {
+                    "id": "185293300",
+                    "name": "Festive Fudge Bites Gift Box [6 Pcs]",
+                    "category": "Gifting",
+                    "description": "Chocolate fudge bites in an assortment of traditional festive flavours - Fig & Date (2), Kaju & Besan (2), Sesame & Coconut (2). Allergens - Dairy, Soy, Nuts.",
+                    "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/10/14/09eebb35-4bfb-4110-a7c7-d2c7575abb62_bd06aee4-bbb0-4415-84d4-54b18f002f59.jpg",
+                    "inStock": 1,
+                    "isVeg": 1,
+                    "price": 39500,
+                    "itemAttribute": {
+                        "vegClassifier": "VEG"
+                    },
+                    "type": "ITEM",
+                    "parentId": "112538266"
+                },
+                "hideRestaurantDetails": true
+            }
+        },
+        {
+            "card": {
+                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                "info": {
+                    "id": "164915050",
+                    "name": "Gift Hamper Bag (Premium)",
+                    "category": "Gifting",
+                    "description": "An assortment of our signature products - Eggless assorted brownies, Chocolate chip cookies (8pc), Butter palmiers (50g), Sweet Sesame crackers (100g) & Cheese crackers (100g)",
+                    "imageId": "150f32549957a2aa3e586fd899ea4b08",
+                    "inStock": 1,
+                    "isVeg": 1,
+                    "price": 80000,
+                    "itemAttribute": {
+                        "vegClassifier": "VEG"
+                    },
+                    "type": "ITEM",
+                    "ratings": {
+                        "aggregatedRating": {
+                            "rating": "4.0",
+                            "ratingCount": "2 ratings",
+                            "ratingCountV2": "2"
+                        },
+                        "ratingsPresentationConfig": {
+                            "bgGradient": {
+                                "colours": [
+                                    "#C8F9E5",
+                                    "#FFFFFF"
+                                ],
+                                "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                            },
+                            "ratingIconColor": "rating_very_good",
+                            "ratingTextColor": "rating_very_good",
+                            "ratingCountTextColor": "rating_very_good",
+                            "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                            "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                        }
+                    },
+                    "parentId": "88539405"
+                },
+                "hideRestaurantDetails": true
+            }
+        },
+        {
+            "card": {
+                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                "info": {
+                    "id": "164915714",
+                    "name": "Gift Hamper Bag (Luxury)",
+                    "category": "Gifting",
+                    "description": "An assortment of our signature products  - Assorted Eggless Brownies (2 pcs), Double Choco Chip Cookies (8 pcs), Eggless Dense Loaf (260g), Butter Cookies (10 pcs), Black Pepper Sourdough Crackers (100g) & Orange Cookies (12 pcs)",
+                    "imageId": "62752001183a1801168e8dbf414601cd",
+                    "inStock": 1,
+                    "isVeg": 1,
+                    "price": 120000,
+                    "itemAttribute": {
+                        "vegClassifier": "VEG"
+                    },
+                    "type": "ITEM",
+                    "parentId": "88539404"
+                },
+                "hideRestaurantDetails": true
+            }
+        },
+        {
+            "card": {
+                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                "info": {
+                    "id": "185293292",
+                    "name": "Customised Festive Gift Hamper Bag",
+                    "category": "Gifting",
+                    "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/10/10/ced90d03-c073-4387-a019-9e66df516f53_808811d6-cc24-4874-a669-42bd9a74cd91.jpg",
+                    "inStock": 1,
+                    "isVeg": 1,
+                    "variantsV2": {
+                        "variantGroups": [
+                            {
+                                "groupId": "67766267",
+                                "name": "Assortment",
+                                "variations": [
+                                    {
+                                        "name": "Diwali Chocolate Rochers Gift Box [6 Pcs]",
+                                        "price": 450,
+                                        "default": 1,
+                                        "id": "203770845",
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "name": "Assorted Sweets & Mithai Confectionery Box [9 Pcs]",
+                                        "price": 575,
+                                        "id": "203770846",
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "name": "Diwali Mini Brownies Gift Box [12 Pcs]",
+                                        "price": 650,
+                                        "id": "203770847",
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "name": "Diwali Chocolate Playing Cards Gift Box [4 Pcs]",
+                                        "price": 475,
+                                        "id": "203770848",
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    }
+                                ]
+                            }
+                        ],
+                        "pricingModels": [
+                            {
+                                "variations": [
+                                    {
+                                        "groupId": "67766267",
+                                        "variationId": "203770845"
+                                    }
+                                ],
+                                "price": 45000,
+                                "addonCombinations": [
+                                    {
+                                        "groupId": "250531324",
+                                        "addonId": "140271008"
+                                    },
+                                    {
+                                        "groupId": "250531324",
+                                        "addonId": "140286568"
+                                    },
+                                    {
+                                        "groupId": "250531324",
+                                        "addonId": "140271010"
+                                    },
+                                    {
+                                        "groupId": "250531324",
+                                        "addonId": "140286569"
+                                    },
+                                    {
+                                        "groupId": "250531322",
+                                        "addonId": "140271015"
+                                    },
+                                    {
+                                        "groupId": "250531322",
+                                        "addonId": "140271007"
+                                    },
+                                    {
+                                        "groupId": "250531322",
+                                        "addonId": "140271012"
+                                    },
+                                    {
+                                        "groupId": "250531322",
+                                        "addonId": "140271005"
+                                    },
+                                    {
+                                        "groupId": "250531322",
+                                        "addonId": "140271009"
+                                    },
+                                    {
+                                        "groupId": "250531323",
+                                        "addonId": "140271013"
+                                    },
+                                    {
+                                        "groupId": "250531323",
+                                        "addonId": "140271014"
+                                    },
+                                    {
+                                        "groupId": "250531323",
+                                        "addonId": "140271006"
+                                    },
+                                    {
+                                        "groupId": "250531323",
+                                        "addonId": "140271016"
+                                    },
+                                    {
+                                        "groupId": "250531323",
+                                        "addonId": "140271017"
+                                    }
+                                ]
+                            },
+                            {
+                                "variations": [
+                                    {
+                                        "groupId": "67766267",
+                                        "variationId": "203770846"
+                                    }
+                                ],
+                                "price": 57500,
+                                "addonCombinations": [
+                                    {
+                                        "groupId": "250531324",
+                                        "addonId": "140271008"
+                                    },
+                                    {
+                                        "groupId": "250531324",
+                                        "addonId": "140286568"
+                                    },
+                                    {
+                                        "groupId": "250531324",
+                                        "addonId": "140271010"
+                                    },
+                                    {
+                                        "groupId": "250531324",
+                                        "addonId": "140286569"
+                                    },
+                                    {
+                                        "groupId": "250531322",
+                                        "addonId": "140271015"
+                                    },
+                                    {
+                                        "groupId": "250531322",
+                                        "addonId": "140271007"
+                                    },
+                                    {
+                                        "groupId": "250531322",
+                                        "addonId": "140271012"
+                                    },
+                                    {
+                                        "groupId": "250531322",
+                                        "addonId": "140271005"
+                                    },
+                                    {
+                                        "groupId": "250531322",
+                                        "addonId": "140271009"
+                                    },
+                                    {
+                                        "groupId": "250531323",
+                                        "addonId": "140271013"
+                                    },
+                                    {
+                                        "groupId": "250531323",
+                                        "addonId": "140271014"
+                                    },
+                                    {
+                                        "groupId": "250531323",
+                                        "addonId": "140271006"
+                                    },
+                                    {
+                                        "groupId": "250531323",
+                                        "addonId": "140271016"
+                                    },
+                                    {
+                                        "groupId": "250531323",
+                                        "addonId": "140271017"
+                                    }
+                                ]
+                            },
+                            {
+                                "variations": [
+                                    {
+                                        "groupId": "67766267",
+                                        "variationId": "203770847"
+                                    }
+                                ],
+                                "price": 65000,
+                                "addonCombinations": [
+                                    {
+                                        "groupId": "250531324",
+                                        "addonId": "140271008"
+                                    },
+                                    {
+                                        "groupId": "250531324",
+                                        "addonId": "140286568"
+                                    },
+                                    {
+                                        "groupId": "250531324",
+                                        "addonId": "140271010"
+                                    },
+                                    {
+                                        "groupId": "250531324",
+                                        "addonId": "140286569"
+                                    },
+                                    {
+                                        "groupId": "250531322",
+                                        "addonId": "140271015"
+                                    },
+                                    {
+                                        "groupId": "250531322",
+                                        "addonId": "140271007"
+                                    },
+                                    {
+                                        "groupId": "250531322",
+                                        "addonId": "140271012"
+                                    },
+                                    {
+                                        "groupId": "250531322",
+                                        "addonId": "140271005"
+                                    },
+                                    {
+                                        "groupId": "250531322",
+                                        "addonId": "140271009"
+                                    },
+                                    {
+                                        "groupId": "250531323",
+                                        "addonId": "140271013"
+                                    },
+                                    {
+                                        "groupId": "250531323",
+                                        "addonId": "140271014"
+                                    },
+                                    {
+                                        "groupId": "250531323",
+                                        "addonId": "140271006"
+                                    },
+                                    {
+                                        "groupId": "250531323",
+                                        "addonId": "140271016"
+                                    },
+                                    {
+                                        "groupId": "250531323",
+                                        "addonId": "140271017"
+                                    }
+                                ]
+                            },
+                            {
+                                "variations": [
+                                    {
+                                        "groupId": "67766267",
+                                        "variationId": "203770848"
+                                    }
+                                ],
+                                "price": 47500,
+                                "addonCombinations": [
+                                    {
+                                        "groupId": "250531324",
+                                        "addonId": "140271008"
+                                    },
+                                    {
+                                        "groupId": "250531324",
+                                        "addonId": "140286568"
+                                    },
+                                    {
+                                        "groupId": "250531324",
+                                        "addonId": "140271010"
+                                    },
+                                    {
+                                        "groupId": "250531324",
+                                        "addonId": "140286569"
+                                    },
+                                    {
+                                        "groupId": "250531322",
+                                        "addonId": "140271015"
+                                    },
+                                    {
+                                        "groupId": "250531322",
+                                        "addonId": "140271007"
+                                    },
+                                    {
+                                        "groupId": "250531322",
+                                        "addonId": "140271012"
+                                    },
+                                    {
+                                        "groupId": "250531322",
+                                        "addonId": "140271005"
+                                    },
+                                    {
+                                        "groupId": "250531322",
+                                        "addonId": "140271009"
+                                    },
+                                    {
+                                        "groupId": "250531323",
+                                        "addonId": "140271013"
+                                    },
+                                    {
+                                        "groupId": "250531323",
+                                        "addonId": "140271014"
+                                    },
+                                    {
+                                        "groupId": "250531323",
+                                        "addonId": "140271006"
+                                    },
+                                    {
+                                        "groupId": "250531323",
+                                        "addonId": "140271016"
+                                    },
+                                    {
+                                        "groupId": "250531323",
+                                        "addonId": "140271017"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "addons": [
+                        {
+                            "groupId": "250531322",
+                            "groupName": "Biscuits,cookies & crackers",
+                            "choices": [
+                                {
+                                    "id": "140271007",
+                                    "name": "Oats & Raisins Big Cookie [1 Piece]",
+                                    "price": 8000,
+                                    "inStock": 1,
+                                    "isVeg": 1,
+                                    "isEnabled": 1
+                                },
+                                {
+                                    "id": "140271009",
+                                    "name": "Cheese Crackers [100g]",
+                                    "price": 18000,
+                                    "inStock": 1,
+                                    "isVeg": 1,
+                                    "isEnabled": 1
+                                },
+                                {
+                                    "id": "140271012",
+                                    "name": "Jeera Cookies [10 Pieces]",
+                                    "price": 18000,
+                                    "inStock": 1,
+                                    "isVeg": 1,
+                                    "isEnabled": 1
+                                },
+                                {
+                                    "id": "140271015",
+                                    "name": "Chocolate ChipBig Cookie [1 Piece]",
+                                    "price": 10000,
+                                    "inStock": 1,
+                                    "isVeg": 1,
+                                    "isEnabled": 1
+                                },
+                                {
+                                    "id": "140271005",
+                                    "name": "Butter Palmiers [3 Pieces]",
+                                    "price": 8500,
+                                    "inStock": 1,
+                                    "isVeg": 1,
+                                    "isEnabled": 1
+                                }
+                            ],
+                            "maxAddons": 3,
+                            "maxFreeAddons": -1,
+                            "minAddons": 1
+                        },
+                        {
+                            "groupId": "250531323",
+                            "groupName": "Chocolate & Tea Cakes",
+                            "choices": [
+                                {
+                                    "id": "140271013",
+                                    "name": "Almond Rocks [250g]",
+                                    "price": 65000,
+                                    "inStock": 1,
+                                    "isVeg": 1,
+                                    "isEnabled": 1
+                                },
+                                {
+                                    "id": "140271014",
+                                    "name": "55% Dark Chocolate with Cranberry [60g]",
+                                    "price": 21000,
+                                    "inStock": 1,
+                                    "isVeg": 1,
+                                    "isEnabled": 1
+                                },
+                                {
+                                    "id": "140271006",
+                                    "name": "55% Dark Chocolate with Sea Salt & Almond [60g]",
+                                    "price": 21000,
+                                    "inStock": 1,
+                                    "isVeg": 1,
+                                    "isEnabled": 1
+                                },
+                                {
+                                    "id": "140271016",
+                                    "name": "Eggless Dense Loaf [260g]",
+                                    "price": 24000,
+                                    "inStock": 1,
+                                    "isVeg": 1,
+                                    "isEnabled": 1
+                                },
+                                {
+                                    "id": "140271017",
+                                    "name": "Eggless Mava Cake [225g]",
+                                    "price": 27000,
+                                    "isVeg": 1,
+                                    "isEnabled": 1
+                                }
+                            ],
+                            "maxAddons": 2,
+                            "maxFreeAddons": -1,
+                            "minAddons": 1
+                        },
+                        {
+                            "groupId": "250531324",
+                            "groupName": "TR",
+                            "choices": [
+                                {
+                                    "id": "140271008",
+                                    "name": "Set of 2 Diyas",
+                                    "price": 6500,
+                                    "inStock": 1,
+                                    "isVeg": 1,
+                                    "isEnabled": 1
+                                },
+                                {
+                                    "id": "140271010",
+                                    "name": "Playing Cards Deck [1]",
+                                    "price": 11000,
+                                    "inStock": 1,
+                                    "isVeg": 1,
+                                    "isEnabled": 1
+                                },
+                                {
+                                    "id": "140286568",
+                                    "name": "Almonds (50g)",
+                                    "price": 12500,
+                                    "inStock": 1,
+                                    "isVeg": 1,
+                                    "isEnabled": 1
+                                },
+                                {
+                                    "id": "140286569",
+                                    "name": "Greeting card",
+                                    "price": 12500,
+                                    "inStock": 1,
+                                    "isVeg": 1,
+                                    "isEnabled": 1
+                                }
+                            ],
+                            "maxAddons": 2,
+                            "maxFreeAddons": -1,
+                            "minAddons": 2
+                        }
+                    ],
+                    "itemAttribute": {
+                        "vegClassifier": "VEG"
+                    },
+                    "defaultPrice": 45000,
+                    "type": "ITEM",
+                    "parentId": "112538262"
+                },
+                "hideRestaurantDetails": true
+            }
+        },
+        {
+            "card": {
+                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                "info": {
+                    "id": "185293296",
+                    "name": "Festive Mithai & Chocolate Gift Hamper Bag",
+                    "category": "Gifting",
+                    "description": "An assortment of signature and festive offerings - i. Chocolate Rochers Gift Box [6 Pcs], ii.Mithai Confectionery Gift Box [9 pcs], iii. Set of 2 Diyas, iv. Greeting Card [1]",
+                    "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/10/8/849791b5-a2da-44f5-b4ec-3ee6a11224fe_6ad09084-77c4-457c-aee4-6727bb48bbfa.jpg",
+                    "inStock": 1,
+                    "isVeg": 1,
+                    "price": 109500,
+                    "itemAttribute": {
+                        "vegClassifier": "VEG"
+                    },
+                    "type": "ITEM",
+                    "parentId": "112538267"
+                },
+                "hideRestaurantDetails": true
+            }
+        },
+        {
+            "card": {
+                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                "info": {
+                    "id": "181161323",
+                    "name": "Goodies Gift Hamper Box",
+                    "category": "Gifting",
+                    "description": "An assortment of signature offerings - Sweet Sesame Crackers [100g], Cheese Crackers [100g], Butter Palmiers [3 Pieces], Chocolate Chip Cookies [8 Pieces], Orange Cookies [12 Pieces], Eggless Banana Cake [200g], Assorted Brownies Box [6 Pieces], Diary [1], Mug [1], Scented Candle [1]",
+                    "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/9/2/2cff0934-3171-49dc-8ca1-5318cdb1bc95_9e70f4b5-44f4-42bd-a66c-7a4eab1a8284.jpg",
+                    "inStock": 1,
+                    "isVeg": 1,
+                    "price": 185500,
+                    "itemAttribute": {
+                        "vegClassifier": "VEG"
+                    },
+                    "type": "ITEM",
+                    "parentId": "109889985"
+                },
+                "hideRestaurantDetails": true
+            }
+        },
+        {
+            "card": {
+                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                "info": {
+                    "id": "181161322",
+                    "name": "Luxury Gift Hamper Box",
+                    "category": "Gifting",
+                    "description": "An assortment of our signature offerings- Sweet Sesame Crackers [100g], Cheese Crackers [100g], Butter Palmiers [3 Pieces], Chocolate Chip Cookies [8 Pieces], Orange Cookies [12 Pieces], Eggless Banana Cake [200g], Eggless Dense Loaf [260g], Assorted Brownies Box [6 Pieces]",
+                    "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/9/2/e6e31743-3e07-4d89-8b5e-ad3e5281723a_8763533f-f4af-4bf8-83b9-a59e10b03157.jpg",
+                    "inStock": 1,
+                    "isVeg": 1,
+                    "price": 199500,
+                    "itemAttribute": {
+                        "vegClassifier": "VEG"
+                    },
+                    "type": "ITEM",
+                    "parentId": "109889987"
+                },
+                "hideRestaurantDetails": true
+            }
+        },
+        {
+            "card": {
+                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                "info": {
+                    "id": "181161324",
+                    "name": "Indulgence Gift Hamper Box",
+                    "category": "Gifting",
+                    "description": "An assortment of our signature offerings - Sweet Sesame Crackers [100g], Cheese Crackers [100g], Butter Palmiers [3 Pieces], Chocolate Chip Cookies [8 Pieces], Orange Cookies [12 Pieces], Eggless Banana Cake [200g], Eggless Dense Loaf [260g], Assorted Brownies Box [6 Pieces], Almond Rocks [250g]",
+                    "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/9/2/d030c223-97c6-418f-a743-d221aea4d00f_c77a57f7-47ef-43f8-93cd-f3b8c306ed63.jpg",
+                    "inStock": 1,
+                    "isVeg": 1,
+                    "price": 259500,
+                    "itemAttribute": {
+                        "vegClassifier": "VEG"
+                    },
+                    "type": "ITEM",
+                    "parentId": "109889986"
+                },
+                "hideRestaurantDetails": true
+            }
+        },
+        {
+            "card": {
+                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                "info": {
+                    "id": "185293293",
+                    "name": "Customised Festive Gift Hamper Box",
+                    "category": "Gifting",
+                    "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/10/10/50f27dd3-6685-4ec9-9bac-a30d5101a552_d76834d7-200c-4aca-a2bf-fc57c0f9fe07.jpg",
+                    "inStock": 1,
+                    "isVeg": 1,
+                    "variantsV2": {
+                        "variantGroups": [
+                            {
+                                "groupId": "67766268",
+                                "name": "Assortment",
+                                "variations": [
+                                    {
+                                        "name": "Diwali Chocolate Rochers Gift Box [6 Pcs]",
+                                        "price": 450,
+                                        "default": 1,
+                                        "id": "203770849",
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "name": "Assorted Sweets & Mithai Confectionery Box [9 Pcs]",
+                                        "price": 575,
+                                        "id": "203770850",
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "name": "Diwali Mini Brownies Gift Box [12 Pcs]",
+                                        "price": 650,
+                                        "id": "203770851",
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "name": "Diwali Chocolate Playing Cards Gift Box [4 Pcs]",
+                                        "price": 475,
+                                        "id": "203770852",
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    }
+                                ]
+                            }
+                        ],
+                        "pricingModels": [
+                            {
+                                "variations": [
+                                    {
+                                        "groupId": "67766268",
+                                        "variationId": "203770849"
+                                    }
+                                ],
+                                "price": 45000,
+                                "addonCombinations": [
+                                    {
+                                        "groupId": "250531327",
+                                        "addonId": "140271008"
+                                    },
+                                    {
+                                        "groupId": "250531327",
+                                        "addonId": "140286568"
+                                    },
+                                    {
+                                        "groupId": "250531327",
+                                        "addonId": "140271010"
+                                    },
+                                    {
+                                        "groupId": "250531327",
+                                        "addonId": "140286569"
+                                    },
+                                    {
+                                        "groupId": "250531325",
+                                        "addonId": "140271015"
+                                    },
+                                    {
+                                        "groupId": "250531325",
+                                        "addonId": "140271007"
+                                    },
+                                    {
+                                        "groupId": "250531325",
+                                        "addonId": "140271012"
+                                    },
+                                    {
+                                        "groupId": "250531325",
+                                        "addonId": "140271011"
+                                    },
+                                    {
+                                        "groupId": "250531325",
+                                        "addonId": "140271005"
+                                    },
+                                    {
+                                        "groupId": "250531326",
+                                        "addonId": "140271013"
+                                    },
+                                    {
+                                        "groupId": "250531326",
+                                        "addonId": "140271014"
+                                    },
+                                    {
+                                        "groupId": "250531326",
+                                        "addonId": "140271006"
+                                    },
+                                    {
+                                        "groupId": "250531326",
+                                        "addonId": "140271016"
+                                    },
+                                    {
+                                        "groupId": "250531326",
+                                        "addonId": "140271017"
+                                    }
+                                ]
+                            },
+                            {
+                                "variations": [
+                                    {
+                                        "groupId": "67766268",
+                                        "variationId": "203770850"
+                                    }
+                                ],
+                                "price": 57500,
+                                "addonCombinations": [
+                                    {
+                                        "groupId": "250531327",
+                                        "addonId": "140271008"
+                                    },
+                                    {
+                                        "groupId": "250531327",
+                                        "addonId": "140286568"
+                                    },
+                                    {
+                                        "groupId": "250531327",
+                                        "addonId": "140271010"
+                                    },
+                                    {
+                                        "groupId": "250531327",
+                                        "addonId": "140286569"
+                                    },
+                                    {
+                                        "groupId": "250531325",
+                                        "addonId": "140271015"
+                                    },
+                                    {
+                                        "groupId": "250531325",
+                                        "addonId": "140271007"
+                                    },
+                                    {
+                                        "groupId": "250531325",
+                                        "addonId": "140271012"
+                                    },
+                                    {
+                                        "groupId": "250531325",
+                                        "addonId": "140271011"
+                                    },
+                                    {
+                                        "groupId": "250531325",
+                                        "addonId": "140271005"
+                                    },
+                                    {
+                                        "groupId": "250531326",
+                                        "addonId": "140271013"
+                                    },
+                                    {
+                                        "groupId": "250531326",
+                                        "addonId": "140271014"
+                                    },
+                                    {
+                                        "groupId": "250531326",
+                                        "addonId": "140271006"
+                                    },
+                                    {
+                                        "groupId": "250531326",
+                                        "addonId": "140271016"
+                                    },
+                                    {
+                                        "groupId": "250531326",
+                                        "addonId": "140271017"
+                                    }
+                                ]
+                            },
+                            {
+                                "variations": [
+                                    {
+                                        "groupId": "67766268",
+                                        "variationId": "203770851"
+                                    }
+                                ],
+                                "price": 65000,
+                                "addonCombinations": [
+                                    {
+                                        "groupId": "250531327",
+                                        "addonId": "140271008"
+                                    },
+                                    {
+                                        "groupId": "250531327",
+                                        "addonId": "140286568"
+                                    },
+                                    {
+                                        "groupId": "250531327",
+                                        "addonId": "140271010"
+                                    },
+                                    {
+                                        "groupId": "250531327",
+                                        "addonId": "140286569"
+                                    },
+                                    {
+                                        "groupId": "250531325",
+                                        "addonId": "140271015"
+                                    },
+                                    {
+                                        "groupId": "250531325",
+                                        "addonId": "140271007"
+                                    },
+                                    {
+                                        "groupId": "250531325",
+                                        "addonId": "140271012"
+                                    },
+                                    {
+                                        "groupId": "250531325",
+                                        "addonId": "140271011"
+                                    },
+                                    {
+                                        "groupId": "250531325",
+                                        "addonId": "140271005"
+                                    },
+                                    {
+                                        "groupId": "250531326",
+                                        "addonId": "140271013"
+                                    },
+                                    {
+                                        "groupId": "250531326",
+                                        "addonId": "140271014"
+                                    },
+                                    {
+                                        "groupId": "250531326",
+                                        "addonId": "140271006"
+                                    },
+                                    {
+                                        "groupId": "250531326",
+                                        "addonId": "140271016"
+                                    },
+                                    {
+                                        "groupId": "250531326",
+                                        "addonId": "140271017"
+                                    }
+                                ]
+                            },
+                            {
+                                "variations": [
+                                    {
+                                        "groupId": "67766268",
+                                        "variationId": "203770852"
+                                    }
+                                ],
+                                "price": 47500,
+                                "addonCombinations": [
+                                    {
+                                        "groupId": "250531327",
+                                        "addonId": "140271008"
+                                    },
+                                    {
+                                        "groupId": "250531327",
+                                        "addonId": "140286568"
+                                    },
+                                    {
+                                        "groupId": "250531327",
+                                        "addonId": "140271010"
+                                    },
+                                    {
+                                        "groupId": "250531327",
+                                        "addonId": "140286569"
+                                    },
+                                    {
+                                        "groupId": "250531325",
+                                        "addonId": "140271015"
+                                    },
+                                    {
+                                        "groupId": "250531325",
+                                        "addonId": "140271007"
+                                    },
+                                    {
+                                        "groupId": "250531325",
+                                        "addonId": "140271012"
+                                    },
+                                    {
+                                        "groupId": "250531325",
+                                        "addonId": "140271011"
+                                    },
+                                    {
+                                        "groupId": "250531325",
+                                        "addonId": "140271005"
+                                    },
+                                    {
+                                        "groupId": "250531326",
+                                        "addonId": "140271013"
+                                    },
+                                    {
+                                        "groupId": "250531326",
+                                        "addonId": "140271014"
+                                    },
+                                    {
+                                        "groupId": "250531326",
+                                        "addonId": "140271006"
+                                    },
+                                    {
+                                        "groupId": "250531326",
+                                        "addonId": "140271016"
+                                    },
+                                    {
+                                        "groupId": "250531326",
+                                        "addonId": "140271017"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "addons": [
+                        {
+                            "groupId": "250531325",
+                            "groupName": "Biscuits, Cookies & Crackers",
+                            "choices": [
+                                {
+                                    "id": "140271011",
+                                    "name": "Cheese Crackers [110g]",
+                                    "price": 20000,
+                                    "inStock": 1,
+                                    "isVeg": 1,
+                                    "isEnabled": 1
+                                },
+                                {
+                                    "id": "140271007",
+                                    "name": "Oats & Raisins Big Cookie [1 Piece]",
+                                    "price": 8000,
+                                    "inStock": 1,
+                                    "isVeg": 1,
+                                    "isEnabled": 1
+                                },
+                                {
+                                    "id": "140271012",
+                                    "name": "Jeera Cookies [10 Pieces]",
+                                    "price": 18000,
+                                    "inStock": 1,
+                                    "isVeg": 1,
+                                    "isEnabled": 1
+                                },
+                                {
+                                    "id": "140271015",
+                                    "name": "Chocolate ChipBig Cookie [1 Piece]",
+                                    "price": 10000,
+                                    "inStock": 1,
+                                    "isVeg": 1,
+                                    "isEnabled": 1
+                                },
+                                {
+                                    "id": "140271005",
+                                    "name": "Butter Palmiers [3 Pieces]",
+                                    "price": 8500,
+                                    "inStock": 1,
+                                    "isVeg": 1,
+                                    "isEnabled": 1
+                                }
+                            ],
+                            "maxAddons": 3,
+                            "maxFreeAddons": -1,
+                            "minAddons": 2
+                        },
+                        {
+                            "groupId": "250531326",
+                            "groupName": "Chocolate & Tea Cakes",
+                            "choices": [
+                                {
+                                    "id": "140271013",
+                                    "name": "Almond Rocks [250g]",
+                                    "price": 65000,
+                                    "inStock": 1,
+                                    "isVeg": 1,
+                                    "isEnabled": 1
+                                },
+                                {
+                                    "id": "140271014",
+                                    "name": "55% Dark Chocolate with Cranberry [60g]",
+                                    "price": 21000,
+                                    "inStock": 1,
+                                    "isVeg": 1,
+                                    "isEnabled": 1
+                                },
+                                {
+                                    "id": "140271006",
+                                    "name": "55% Dark Chocolate with Sea Salt & Almond [60g]",
+                                    "price": 21000,
+                                    "inStock": 1,
+                                    "isVeg": 1,
+                                    "isEnabled": 1
+                                },
+                                {
+                                    "id": "140271016",
+                                    "name": "Eggless Dense Loaf [260g]",
+                                    "price": 24000,
+                                    "inStock": 1,
+                                    "isVeg": 1,
+                                    "isEnabled": 1
+                                },
+                                {
+                                    "id": "140271017",
+                                    "name": "Eggless Mava Cake [225g]",
+                                    "price": 27000,
+                                    "isVeg": 1,
+                                    "isEnabled": 1
+                                }
+                            ],
+                            "maxAddons": 3,
+                            "maxFreeAddons": -1,
+                            "minAddons": 2
+                        },
+                        {
+                            "groupId": "250531327",
+                            "groupName": "TR",
+                            "choices": [
+                                {
+                                    "id": "140271008",
+                                    "name": "Set of 2 Diyas",
+                                    "price": 6500,
+                                    "inStock": 1,
+                                    "isVeg": 1,
+                                    "isEnabled": 1
+                                },
+                                {
+                                    "id": "140271010",
+                                    "name": "Playing Cards Deck [1]",
+                                    "price": 11000,
+                                    "inStock": 1,
+                                    "isVeg": 1,
+                                    "isEnabled": 1
+                                },
+                                {
+                                    "id": "140286568",
+                                    "name": "Almonds (50g)",
+                                    "price": 12500,
+                                    "inStock": 1,
+                                    "isVeg": 1,
+                                    "isEnabled": 1
+                                },
+                                {
+                                    "id": "140286569",
+                                    "name": "Greeting card",
+                                    "price": 12500,
+                                    "inStock": 1,
+                                    "isVeg": 1,
+                                    "isEnabled": 1
+                                }
+                            ],
+                            "maxAddons": 2,
+                            "maxFreeAddons": -1,
+                            "minAddons": 2
+                        }
+                    ],
+                    "itemAttribute": {
+                        "vegClassifier": "VEG"
+                    },
+                    "defaultPrice": 45000,
+                    "type": "ITEM",
+                    "parentId": "112538264"
+                },
+                "hideRestaurantDetails": true
+            }
+        },
+        {
+            "card": {
+                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                "info": {
+                    "id": "167399609",
+                    "name": "Premium Gift Hamper Basket (Eggless)",
+                    "category": "Gifting",
+                    "description": "An assortment of signature products - Assorted Eggless Brownies (4pc), Chocolate Chip cookies (8pc), Eggless Dense loaf (260g), Butter Cookies (10pc), Ragi Crackers (100g), Butter Palmiers (50g).",
+                    "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/7/25/9b12f1bd-19a3-4047-a0f3-5674f911b5a7_41d1ead7-109b-4d19-9c3e-be3488519e84.jpg",
+                    "inStock": 1,
+                    "isVeg": 1,
+                    "price": 172500,
+                    "itemAttribute": {
+                        "vegClassifier": "VEG"
+                    },
+                    "type": "ITEM",
+                    "parentId": "94081371"
+                },
+                "hideRestaurantDetails": true
+            }
+        },
+        {
+            "card": {
+                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                "info": {
+                    "id": "124463305",
+                    "name": "Eggless Premium Hamper",
+                    "category": "Gifting",
+                    "description": "An assortment of signature products - Assorted Eggless Brownies (4pc) - [Choco chip (1), Walnut (1), Cookie (1), Outrageous (1)], Chocolate Chip cookies (11pc), Eggless Dense loaf (260g), Butter Cookies (10pc), Ragi Crackers (100g), Butter Palmiers (50g)",
+                    "imageId": "f370dbb5f768804cf143f758638beee5",
+                    "inStock": 1,
+                    "isVeg": 1,
+                    "price": 169500,
+                    "itemAttribute": {
+                        "vegClassifier": "VEG"
+                    },
+                    "type": "ITEM",
+                    "ratings": {
+                        "aggregatedRating": {
+                            "rating": "5.0",
+                            "ratingCount": "2 ratings",
+                            "ratingCountV2": "2"
+                        },
+                        "ratingsPresentationConfig": {
+                            "bgGradient": {
+                                "colours": [
+                                    "#C8F9E5",
+                                    "#FFFFFF"
+                                ],
+                                "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                            },
+                            "ratingIconColor": "rating_very_good",
+                            "ratingTextColor": "rating_very_good",
+                            "ratingCountTextColor": "rating_very_good",
+                            "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                            "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                        }
+                    },
+                    "parentId": "67502623"
+                },
+                "hideRestaurantDetails": true
+            }
+        },
+        {
+            "card": {
+                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                "info": {
+                    "id": "170681462",
+                    "name": "Luxury Gift Hamper Basket (Eggless)",
+                    "category": "Gifting",
+                    "description": "An assortment of signature products- Assorted Eggless Brownies (6pc), Chocolate Chip cookies (8pc), Eggless Dense loaf (260g), Orange Cookies (12pc), Eggless Mava Cake (225g), Cheese Crackers (100g), Chocolate coated biscuits (9pc)",
+                    "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/7/25/b1510b08-5ead-4661-a6ed-e0179983e87d_5dfe6128-76d9-4ca3-9a18-fcf70b51dec5.jpg",
+                    "inStock": 1,
+                    "isVeg": 1,
+                    "price": 229500,
+                    "itemAttribute": {
+                        "vegClassifier": "VEG"
+                    },
+                    "type": "ITEM",
+                    "parentId": "101846433"
+                },
+                "hideRestaurantDetails": true
+            }
+        },
+        {
+            "card": {
+                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                "info": {
+                    "id": "124463296",
+                    "name": "Eggless Luxury Hamper",
+                    "category": "Gifting",
+                    "description": "An assortment of signature products - Assorted Eggless Brownies Box (6pc) - Choco Chip cookies (11pc), Eggless Dense loaf (260g), Eggless Almond Biscotti (150g), Eggless Mava Cake (225g), Cheese Crackers (100g), Chocolate Coated Biscuits (10pc)",
+                    "imageId": "f370dbb5f768804cf143f758638beee5",
+                    "inStock": 1,
+                    "isVeg": 1,
+                    "price": 229500,
+                    "itemAttribute": {
+                        "vegClassifier": "VEG"
+                    },
+                    "type": "ITEM",
+                    "ratings": {
+                        "aggregatedRating": {
+                            "rating": "5.0",
+                            "ratingCount": "2 ratings",
+                            "ratingCountV2": "2"
+                        },
+                        "ratingsPresentationConfig": {
+                            "bgGradient": {
+                                "colours": [
+                                    "#C8F9E5",
+                                    "#FFFFFF"
+                                ],
+                                "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                            },
+                            "ratingIconColor": "rating_very_good",
+                            "ratingTextColor": "rating_very_good",
+                            "ratingCountTextColor": "rating_very_good",
+                            "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                            "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                        }
+                    },
+                    "parentId": "67502622"
+                },
+                "hideRestaurantDetails": true
+            }
+        },
+        {
+            "card": {
+                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                "info": {
+                    "id": "124463294",
+                    "name": "Eggless Indulgence Hamper",
+                    "category": "Gifting",
+                    "description": "An assortment of signature products-Eggless Brownies(6p),Choco Chip Cookies(11p),Eggless Dense loaf(260g),Cheese Crackers(100g),Eggless Mava Cake(225g),Eggless Almond Biscotti(150g),Chocolate Coated Biscuits(10p),Butter Cookies(10p),Almond Rocks(250g)",
+                    "imageId": "a79539dd08dab525567b4b8386d4a5d9",
+                    "inStock": 1,
+                    "isVeg": 1,
+                    "price": 329500,
+                    "itemAttribute": {
+                        "vegClassifier": "VEG"
+                    },
+                    "type": "ITEM",
+                    "parentId": "67502621"
+                },
+                "hideRestaurantDetails": true
+            }
+        },
+        {
+            "card": {
+                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                "info": {
+                    "id": "185293294",
+                    "name": "Customised Festive Gift Hamper Basket",
+                    "category": "Gifting",
+                    "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/10/10/d275fb2e-ec0c-4db3-92df-65afabee5351_6c36b320-9afd-4637-93b4-dc829a850e64.jpg",
+                    "inStock": 1,
+                    "isVeg": 1,
+                    "variantsV2": {
+                        "variantGroups": [
+                            {
+                                "groupId": "67766269",
+                                "name": "Assortment",
+                                "variations": [
+                                    {
+                                        "name": "Diwali Chocolate Rochers Gift Box [6 Pcs]",
+                                        "price": 450,
+                                        "default": 1,
+                                        "id": "203770853",
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "name": "Assorted Sweets & Mithai Confectionery Box [9 Pcs]",
+                                        "price": 575,
+                                        "id": "203770854",
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "name": "Diwali Mini Brownies Gift Box [12 Pcs]",
+                                        "price": 650,
+                                        "id": "203770855",
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "name": "Diwali Chocolate Playing Cards Gift Box [4 Pcs]",
+                                        "price": 475,
+                                        "id": "203770856",
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    }
+                                ]
+                            }
+                        ],
+                        "pricingModels": [
+                            {
+                                "variations": [
+                                    {
+                                        "groupId": "67766269",
+                                        "variationId": "203770853"
+                                    }
+                                ],
+                                "price": 45000,
+                                "addonCombinations": [
+                                    {
+                                        "groupId": "250531330",
+                                        "addonId": "140271008"
+                                    },
+                                    {
+                                        "groupId": "250531330",
+                                        "addonId": "140286568"
+                                    },
+                                    {
+                                        "groupId": "250531330",
+                                        "addonId": "140271010"
+                                    },
+                                    {
+                                        "groupId": "250531330",
+                                        "addonId": "140286569"
+                                    },
+                                    {
+                                        "groupId": "250531328",
+                                        "addonId": "140271015"
+                                    },
+                                    {
+                                        "groupId": "250531328",
+                                        "addonId": "140271007"
+                                    },
+                                    {
+                                        "groupId": "250531328",
+                                        "addonId": "140271012"
+                                    },
+                                    {
+                                        "groupId": "250531328",
+                                        "addonId": "140271011"
+                                    },
+                                    {
+                                        "groupId": "250531328",
+                                        "addonId": "140271005"
+                                    },
+                                    {
+                                        "groupId": "250531329",
+                                        "addonId": "140271013"
+                                    },
+                                    {
+                                        "groupId": "250531329",
+                                        "addonId": "140271014"
+                                    },
+                                    {
+                                        "groupId": "250531329",
+                                        "addonId": "140271006"
+                                    },
+                                    {
+                                        "groupId": "250531329",
+                                        "addonId": "140271016"
+                                    },
+                                    {
+                                        "groupId": "250531329",
+                                        "addonId": "140271017"
+                                    }
+                                ]
+                            },
+                            {
+                                "variations": [
+                                    {
+                                        "groupId": "67766269",
+                                        "variationId": "203770854"
+                                    }
+                                ],
+                                "price": 57500,
+                                "addonCombinations": [
+                                    {
+                                        "groupId": "250531330",
+                                        "addonId": "140271008"
+                                    },
+                                    {
+                                        "groupId": "250531330",
+                                        "addonId": "140286568"
+                                    },
+                                    {
+                                        "groupId": "250531330",
+                                        "addonId": "140271010"
+                                    },
+                                    {
+                                        "groupId": "250531330",
+                                        "addonId": "140286569"
+                                    },
+                                    {
+                                        "groupId": "250531328",
+                                        "addonId": "140271015"
+                                    },
+                                    {
+                                        "groupId": "250531328",
+                                        "addonId": "140271007"
+                                    },
+                                    {
+                                        "groupId": "250531328",
+                                        "addonId": "140271012"
+                                    },
+                                    {
+                                        "groupId": "250531328",
+                                        "addonId": "140271011"
+                                    },
+                                    {
+                                        "groupId": "250531328",
+                                        "addonId": "140271005"
+                                    },
+                                    {
+                                        "groupId": "250531329",
+                                        "addonId": "140271013"
+                                    },
+                                    {
+                                        "groupId": "250531329",
+                                        "addonId": "140271014"
+                                    },
+                                    {
+                                        "groupId": "250531329",
+                                        "addonId": "140271006"
+                                    },
+                                    {
+                                        "groupId": "250531329",
+                                        "addonId": "140271016"
+                                    },
+                                    {
+                                        "groupId": "250531329",
+                                        "addonId": "140271017"
+                                    }
+                                ]
+                            },
+                            {
+                                "variations": [
+                                    {
+                                        "groupId": "67766269",
+                                        "variationId": "203770855"
+                                    }
+                                ],
+                                "price": 65000,
+                                "addonCombinations": [
+                                    {
+                                        "groupId": "250531330",
+                                        "addonId": "140271008"
+                                    },
+                                    {
+                                        "groupId": "250531330",
+                                        "addonId": "140286568"
+                                    },
+                                    {
+                                        "groupId": "250531330",
+                                        "addonId": "140271010"
+                                    },
+                                    {
+                                        "groupId": "250531330",
+                                        "addonId": "140286569"
+                                    },
+                                    {
+                                        "groupId": "250531328",
+                                        "addonId": "140271015"
+                                    },
+                                    {
+                                        "groupId": "250531328",
+                                        "addonId": "140271007"
+                                    },
+                                    {
+                                        "groupId": "250531328",
+                                        "addonId": "140271012"
+                                    },
+                                    {
+                                        "groupId": "250531328",
+                                        "addonId": "140271011"
+                                    },
+                                    {
+                                        "groupId": "250531328",
+                                        "addonId": "140271005"
+                                    },
+                                    {
+                                        "groupId": "250531329",
+                                        "addonId": "140271013"
+                                    },
+                                    {
+                                        "groupId": "250531329",
+                                        "addonId": "140271014"
+                                    },
+                                    {
+                                        "groupId": "250531329",
+                                        "addonId": "140271006"
+                                    },
+                                    {
+                                        "groupId": "250531329",
+                                        "addonId": "140271016"
+                                    },
+                                    {
+                                        "groupId": "250531329",
+                                        "addonId": "140271017"
+                                    }
+                                ]
+                            },
+                            {
+                                "variations": [
+                                    {
+                                        "groupId": "67766269",
+                                        "variationId": "203770856"
+                                    }
+                                ],
+                                "price": 47500,
+                                "addonCombinations": [
+                                    {
+                                        "groupId": "250531330",
+                                        "addonId": "140271008"
+                                    },
+                                    {
+                                        "groupId": "250531330",
+                                        "addonId": "140286568"
+                                    },
+                                    {
+                                        "groupId": "250531330",
+                                        "addonId": "140271010"
+                                    },
+                                    {
+                                        "groupId": "250531330",
+                                        "addonId": "140286569"
+                                    },
+                                    {
+                                        "groupId": "250531328",
+                                        "addonId": "140271015"
+                                    },
+                                    {
+                                        "groupId": "250531328",
+                                        "addonId": "140271007"
+                                    },
+                                    {
+                                        "groupId": "250531328",
+                                        "addonId": "140271012"
+                                    },
+                                    {
+                                        "groupId": "250531328",
+                                        "addonId": "140271011"
+                                    },
+                                    {
+                                        "groupId": "250531328",
+                                        "addonId": "140271005"
+                                    },
+                                    {
+                                        "groupId": "250531329",
+                                        "addonId": "140271013"
+                                    },
+                                    {
+                                        "groupId": "250531329",
+                                        "addonId": "140271014"
+                                    },
+                                    {
+                                        "groupId": "250531329",
+                                        "addonId": "140271006"
+                                    },
+                                    {
+                                        "groupId": "250531329",
+                                        "addonId": "140271016"
+                                    },
+                                    {
+                                        "groupId": "250531329",
+                                        "addonId": "140271017"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "addons": [
+                        {
+                            "groupId": "250531328",
+                            "groupName": "Biscuits, Cookies & Crackers",
+                            "choices": [
+                                {
+                                    "id": "140271011",
+                                    "name": "Cheese Crackers [110g]",
+                                    "price": 20000,
+                                    "inStock": 1,
+                                    "isVeg": 1,
+                                    "isEnabled": 1
+                                },
+                                {
+                                    "id": "140271007",
+                                    "name": "Oats & Raisins Big Cookie [1 Piece]",
+                                    "price": 8000,
+                                    "inStock": 1,
+                                    "isVeg": 1,
+                                    "isEnabled": 1
+                                },
+                                {
+                                    "id": "140271012",
+                                    "name": "Jeera Cookies [10 Pieces]",
+                                    "price": 18000,
+                                    "inStock": 1,
+                                    "isVeg": 1,
+                                    "isEnabled": 1
+                                },
+                                {
+                                    "id": "140271015",
+                                    "name": "Chocolate ChipBig Cookie [1 Piece]",
+                                    "price": 10000,
+                                    "inStock": 1,
+                                    "isVeg": 1,
+                                    "isEnabled": 1
+                                },
+                                {
+                                    "id": "140271005",
+                                    "name": "Butter Palmiers [3 Pieces]",
+                                    "price": 8500,
+                                    "inStock": 1,
+                                    "isVeg": 1,
+                                    "isEnabled": 1
+                                }
+                            ],
+                            "maxAddons": 3,
+                            "maxFreeAddons": -1,
+                            "minAddons": 1
+                        },
+                        {
+                            "groupId": "250531329",
+                            "groupName": "Chocolate & Tea Cakes",
+                            "choices": [
+                                {
+                                    "id": "140271013",
+                                    "name": "Almond Rocks [250g]",
+                                    "price": 65000,
+                                    "inStock": 1,
+                                    "isVeg": 1,
+                                    "isEnabled": 1
+                                },
+                                {
+                                    "id": "140271014",
+                                    "name": "55% Dark Chocolate with Cranberry [60g]",
+                                    "price": 21000,
+                                    "inStock": 1,
+                                    "isVeg": 1,
+                                    "isEnabled": 1
+                                },
+                                {
+                                    "id": "140271006",
+                                    "name": "55% Dark Chocolate with Sea Salt & Almond [60g]",
+                                    "price": 21000,
+                                    "inStock": 1,
+                                    "isVeg": 1,
+                                    "isEnabled": 1
+                                },
+                                {
+                                    "id": "140271016",
+                                    "name": "Eggless Dense Loaf [260g]",
+                                    "price": 24000,
+                                    "inStock": 1,
+                                    "isVeg": 1,
+                                    "isEnabled": 1
+                                },
+                                {
+                                    "id": "140271017",
+                                    "name": "Eggless Mava Cake [225g]",
+                                    "price": 27000,
+                                    "isVeg": 1,
+                                    "isEnabled": 1
+                                }
+                            ],
+                            "maxAddons": 3,
+                            "maxFreeAddons": -1,
+                            "minAddons": 1
+                        },
+                        {
+                            "groupId": "250531330",
+                            "groupName": "TR",
+                            "choices": [
+                                {
+                                    "id": "140271008",
+                                    "name": "Set of 2 Diyas",
+                                    "price": 6500,
+                                    "inStock": 1,
+                                    "isVeg": 1,
+                                    "isEnabled": 1
+                                },
+                                {
+                                    "id": "140271010",
+                                    "name": "Playing Cards Deck [1]",
+                                    "price": 11000,
+                                    "inStock": 1,
+                                    "isVeg": 1,
+                                    "isEnabled": 1
+                                },
+                                {
+                                    "id": "140286568",
+                                    "name": "Almonds (50g)",
+                                    "price": 12500,
+                                    "inStock": 1,
+                                    "isVeg": 1,
+                                    "isEnabled": 1
+                                },
+                                {
+                                    "id": "140286569",
+                                    "name": "Greeting card",
+                                    "price": 12500,
+                                    "inStock": 1,
+                                    "isVeg": 1,
+                                    "isEnabled": 1
+                                }
+                            ],
+                            "maxAddons": 2,
+                            "maxFreeAddons": -1,
+                            "minAddons": 2
+                        }
+                    ],
+                    "itemAttribute": {
+                        "vegClassifier": "VEG"
+                    },
+                    "defaultPrice": 45000,
+                    "type": "ITEM",
+                    "parentId": "112538263"
+                },
+                "hideRestaurantDetails": true
+            }
+        }
+    ]
+}

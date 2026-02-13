@@ -2,6 +2,7 @@ import React, { ReactElement, useEffect, useState, KeyboardEvent } from "react";
 import useFetchRestaurants from "../utils/useFetchRestaurants";
 import { RestaurantList } from "../types/restaurant";
 import RestaurantCard, {withPromotedLabel} from "./RestaurantCard";
+import Shimmer from "./Shimmer";
 
 
 
@@ -31,7 +32,7 @@ function Body():ReactElement {
   }
 
   if (resList.length === 0) {
-    return <div>Loading restaurants...</div>;
+    return <Shimmer />
   }
 
   return (

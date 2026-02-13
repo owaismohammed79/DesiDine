@@ -12,6 +12,10 @@ const useRestaurantMenu = (id: string | undefined) => {
             let data = await fetch(`https://foodfire.onrender.com/api/menu?page-type=REGULAR_MENU&complete-menu=true&lat=12.959913533262798&lng=77.5499909&&submitAction=ENTER&restaurantId=${id}`);
             data = await data.json();
             console.log('data', data)
+            const obj = data?.data?.cards?.find(x => x?.card?.card?.["@type"] === "type.googleapis.com/swiggy.presentation.food.v2.Restaurant")?.card?.card?.info
+            console.log('obj', obj)
+            const name = obj.name
+            const rating = obj.avgRating
             const categories = data?.data?.cards
                 ?.find(x => x.groupedCard)
                 ?.groupedCard?.cardGroupMap?.REGULAR?.cards
@@ -22,7 +26,7 @@ const useRestaurantMenu = (id: string | undefined) => {
                 items: c.card.card.categories ? c.card.card.categories.flatMap(sub => sub.itemCards) : c.card.card.itemCards
                 }));
                 console.log('categories', categories)
-            setMenuData(categories)
+            setMenuData({categories: categories, name: name, rating: rating})
         } catch (error) {
             console.log(error)
         }

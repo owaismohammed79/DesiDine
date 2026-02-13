@@ -3,7 +3,6 @@ import { Restaurant } from "../types/restaurant";
 import { Link } from "react-router";
 
 const RestaurantCard = ({ res }: {res: Restaurant}): ReactElement => {
-  console.log('res', res);
 
   return (
     <Link to={`/restaurant/${res.id}`}>

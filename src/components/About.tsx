@@ -4,7 +4,7 @@ import {useUsers} from '../utils/useUsers'
 function About():ReactElement {
   const {users, loading} = useUsers()
 
-  if (loading) return <p>Loading team...</p>;
+  // if (loading) return <Shimmer numCards={3} />
 
   return (
     <>

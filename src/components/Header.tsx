@@ -1,13 +1,14 @@
 import { ReactElement, useState } from "react";
 import { Link } from "react-router";
 import useOnlineStatus from "../utils/useOnlineStatus";
+import { ShoppingCart } from 'lucide-react';
 
 function Header(): ReactElement {
   const [buttonState, setButtonState] = useState<"Login" | "Logout">("Login");
   const isOnline = useOnlineStatus();
 
   return (
-    <div className="border h-16 rounded-xl flex justify-between items-center p-2 bg-slate-100 shadow-lg">
+    <div className="border h-16 rounded-full flex justify-between items-center px-4 py-2 bg-slate-100 shadow-lg md:h-20 md:text-lg">
       <div className="w-18 border rounded flex overflow-hidden">
         <img
           src="https://graphicsfamily.com/wp-content/uploads/edd/2021/11/Logo-Template-for-Food--1536x864.jpg"
@@ -33,12 +34,12 @@ function Header(): ReactElement {
         </li>
         <li>
           <Link className="underline" to="/cart">
-            Cart
+            <ShoppingCart />
           </Link>
         </li>
       </ul>
       <div>
-        <span className="font-bold m-1">
+        <span className="font-semibold m-1">
           {isOnline ? "Online 🟢" : "Offline 🔴"}
         </span>
         <button
