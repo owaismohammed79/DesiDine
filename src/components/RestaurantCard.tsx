@@ -5,7 +5,7 @@ import { Link } from "react-router";
 const RestaurantCard = ({ res }: {res: Restaurant}): ReactElement => {
 
   return (
-    <Link to={`/restaurant/${res.id}`}>
+    <Link to={`/restaurant/${res.id}`} data-testid="items">
       <div className="border w-72 rounded-xl h-[31rem] shadow-md bg-gray-100 hover:bg-gray-200 hover:border-amber-800 hover:border-2">
         <div className="overflow-hidden rounded-t-xl h-4/5">
           <img

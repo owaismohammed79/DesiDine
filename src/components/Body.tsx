@@ -40,6 +40,7 @@ function Body():ReactElement {
       <div className="flex-center mb-3">
         <input
           id="search-inpt"
+          data-testid="search-input"
           type="text"
           placeholder="Mc Donald's"
           className="border rounded p-1 w-72"

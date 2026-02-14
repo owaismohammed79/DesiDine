@@ -9,6 +9,7 @@ import UserContext from "./context/UserContext";
 import { Provider } from "react-redux";
 import appStore from "./store/appStore";
 import CartItems from "./components/CartItems";
+import Shimmer from "./components/Shimmer"
 
 const AppLayout = (): ReactElement => {
   const [userData, setUserData] = useState({ userInfo: "John Doe" });
@@ -40,7 +41,7 @@ const appRouter = createBrowserRouter([
       {
         path: "/about",
         element: (
-          <Suspense fallback={<div>Loading team...</div>}>
+          <Suspense fallback={<Shimmer numCards={3} />}>
             <About />
           </Suspense>
         ),

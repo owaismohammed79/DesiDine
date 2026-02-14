@@ -36,6 +36,7 @@ function ListItems({ category, isOpen }) {
                 />
               )}
               <button
+                data-testid="addBtn"
                 className="absolute bottom-0 left-1/4 -translate-x-1/2 translate-y-1/2 bg-black text-white px-2 py-1 text-xs rounded-md whitespace-nowrap w-7 h-7"
                 onClick={() => addToCart(item.card.info)}
               >

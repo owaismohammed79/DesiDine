@@ -2,10 +2,13 @@ import { ReactElement, useState } from "react";
 import { Link } from "react-router";
 import useOnlineStatus from "../utils/useOnlineStatus";
 import { ShoppingCart } from 'lucide-react';
+import { useSelector } from "react-redux";
 
 function Header(): ReactElement {
   const [buttonState, setButtonState] = useState<"Login" | "Logout">("Login");
   const isOnline = useOnlineStatus();
+  const items = useSelector(state => state.cart.items)
+  // console.log('items', items)
 
   return (
     <div className="border h-16 rounded-full flex justify-between items-center px-4 py-2 bg-slate-100 shadow-lg md:h-20 md:text-lg">
@@ -33,8 +36,11 @@ function Header(): ReactElement {
           </Link>
         </li>
         <li>
-          <Link className="underline" to="/cart">
+          <Link className="relative inline-block underline" to="/cart">
             <ShoppingCart />
+            <span className="absolute -top-2 -right-2 bg-amber-500  text-xs rounded-full h-5 w-5 flex items-center justify-center">
+              {items.reduce((acc, item) => acc + item.quantity, 0)}
+            </span>
           </Link>
         </li>
       </ul>
