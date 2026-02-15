@@ -1,10 +1,11 @@
 import {ReactElement} from 'react'
 import {useUsers} from '../utils/useUsers'
+import Shimmer from './Shimmer'
 
 function About():ReactElement {
   const {users, loading} = useUsers()
 
-  // if (loading) return <Shimmer numCards={3} />
+  if (loading) return <Shimmer numCards={3} />
 
   return (
     <>
