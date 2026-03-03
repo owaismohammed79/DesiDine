@@ -5,15 +5,25 @@ function Contact(): ReactElement {
   const { userInfo } = useContext(UserContext);
 
   return (
-    <div className="flex flex-col h-screen">
-      <div className="m-2 p-2">{`Want to contact us? ${userInfo}`}</div>
-        <h2 className="text-3xl font-bold mx-auto mb-1">Contact Us</h2>
-      <form onSubmit={(e) => e.preventDefault()} className="flex flex-col gap-2 border-gray-400 border-4 px-8 py-6 rounded-xl bg-white h-2/5 ">
-        <label htmlFor="name" className="ml-1 md:text-lg">Name</label>
-        <input type="text" placeholder="John Doe" id="name" className="border-2 p-2 rounded-xl md:h-12 md:mb-2 hover:bg-gray-200 focus:bg-gray-200"/>
-        <label htmlFor="query" className="ml-1 md:text-lg">Query</label>
-        <input type="text" placeholder="Why is this website so good?" id="query" className="border-2 p-2 rounded-xl md:h-12 md:mb-2 hover:bg-gray-200 focus:bg-gray-200"/>
-        <button className="border-2 p-2 rounded-xl w-40 cursor-pointer hover:bg-gray-200">Send your query</button>
+    <div className="max-w-md mx-auto py-10 px-4 min-h-[70vh]">
+      <p className="text-amber-800 font-medium mb-6 text-center italic">
+        {`Hey ${userInfo}, how can we help?`}
+      </p>
+      <h2 className="text-3xl font-black text-amber-900 mb-6 text-center">Contact Us</h2>
+      <form onSubmit={(e) => e.preventDefault()} className="flex flex-col gap-4 bg-white p-8 rounded-2xl shadow-sm border border-amber-100">
+        <div className="flex flex-col gap-1">
+          <label htmlFor="name" className="text-sm font-bold text-amber-900 ml-1">Name</label>
+          <input type="text" placeholder="John Doe" id="name" className="border border-amber-200 p-3 rounded-xl outline-amber-500 focus:bg-amber-50 transition-all"/>
+        </div>
+
+        <div className="flex flex-col gap-1">
+          <label htmlFor="query" className="text-sm font-bold text-amber-900 ml-1">Query</label>
+          <textarea placeholder="Tell us something..." id="query" className="border border-amber-200 p-3 rounded-xl h-32 outline-amber-500 focus:bg-amber-50 transition-all resize-none"/>
+        </div>
+
+        <button className="bg-amber-500 text-white font-bold p-3 rounded-xl mt-2 hover:bg-amber-600 transition-all cursor-pointer shadow-md active:scale-95">
+          Send Message
+        </button>
       </form>
     </div>
   )
