@@ -5,7 +5,7 @@ const useFetchRestaurants = async (): Promise<[] | RestaurantList> => {
     let res = await fetch('https://foodfire.onrender.com/api/restaurants?lat=12.959913533262798&lng=77.5499909&page_type=DESKTOP_WEB_LISTING')
     res = await res.json();
 
-    const restaurantCard = res?.data?.cards?.find((c) => c.card?.card?.id === "restaurant_grid_listing_v2");
+    const restaurantCard = res?.data?.cards?.find((c) => c.card?.card?.id === "top_brands_for_you");
     const restaurantList = restaurantCard?.card?.card?.gridElements?.infoWithStyle?.restaurants;
 
     if (!restaurantList) {
@@ -19,7 +19,10 @@ const useFetchRestaurants = async (): Promise<[] | RestaurantList> => {
             rating: res.info.avgRating,
             location: res.info.areaName,
             promoted: res.info?.promoted ?? false,
-            imgUrl: `https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/` + res.info.cloudinaryImageId
+            imgUrl: `https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/` + res.info.cloudinaryImageId,
+            cuisines: res.info.cuisines,
+            costForTwo: res.info.costForTwo,
+            deliveryTime: res.info.sla.deliveryTime ? res.info.sla.deliveryTime : res.info.sla.slaString
         }
     })
     console.log('ans', ans)

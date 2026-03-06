@@ -4,7 +4,8 @@ export interface Restaurant {
   imgUrl: string;
   rating: string | number;
   location: string;
-  promoted: boolean
+  promoted: boolean;
+  deliveryTime: string
 }
 
 export type RestaurantList = Restaurant[];

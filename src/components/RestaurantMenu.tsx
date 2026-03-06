@@ -19,11 +19,11 @@ function RestaurantMenu() {
   return (
     <div className="w-3/4 mx-auto">     
       <div className="text-[32px] font-semibold my-2">{menuData.name}</div>
-      <div className="flex gap-1 px-2 items-center">
+      <div className="flex gap-1 px-2 items-center bg-green-600 text-white w-20 justify-center rounded-lg p-1">
         <p className="text-xl">{menuData.rating}</p>
-        <Star />
+        <Star fill="white"/>
       </div>
-      <div className="border-b-2 border-gray-400 my-4"></div>
+      <div className="border-b-3 rounded-md border-amber-800 my-4"></div>
       <div className="p-4 mx-auto border rounded-3xl my-2">
         {menuData?.categories.map((category, index) => (
           <div key={category.id} className="mb-8 last:mb-0">
