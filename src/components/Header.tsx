@@ -23,44 +23,46 @@ function Header(): ReactElement {
 
   return (
     <>
-      <div className="sticky top-0 z-50 h-20 rounded-2xl flex justify-between items-center px-6 py-2 bg-white/80 backdrop-blur-md shadow-md border border-amber-100 mx-auto transition-all">
-        <div className="w-18 border rounded flex overflow-hidden">
-          <img
-            src="https://graphicsfamily.com/wp-content/uploads/edd/2021/11/Logo-Template-for-Food--1536x864.jpg"
-            alt="logo"
-            className="h-full object-cover"
-          />
-        </div>
-        <nav className="hidden md:block">
-          <ul className="flex items-center gap-8 font-medium text-amber-900/80">
-            <li className="hover:text-amber-600 transition-colors"><Link to="/">Home</Link></li>
-            <li className="hover:text-amber-600 transition-colors"><Link to="/about">About</Link></li>
-            <li className="hover:text-amber-600 transition-colors"><Link to="/contact">Contact</Link></li>
-          </ul>
-        </nav>
+      <div className="fixed top-0 left-0 w-full z-50 p-4">
+        <div className="h-20 flex justify-between items-center px-6 py-2 bg-white/80 backdrop-blur-md shadow-md border border-amber-100 rounded-2xl max-w-[1200px] mx-auto">
+          <div className="w-18 border rounded flex overflow-hidden">
+            <img
+              src="https://graphicsfamily.com/wp-content/uploads/edd/2021/11/Logo-Template-for-Food--1536x864.jpg"
+              alt="logo"
+              className="h-full object-cover"
+            />
+          </div>
+          <nav className="hidden md:block">
+            <ul className="flex items-center gap-8 font-medium text-amber-900/80">
+              <li className="hover:text-amber-600 transition-colors"><Link to="/">Home</Link></li>
+              <li className="hover:text-amber-600 transition-colors"><Link to="/about">About</Link></li>
+              <li className="hover:text-amber-600 transition-colors"><Link to="/contact">Contact</Link></li>
+            </ul>
+          </nav>
 
-        <div className="flex items-center gap-2 md:gap-4">
-          <Link className="relative p-2 bg-amber-50 rounded-full text-amber-700" to="/cart">
-            <ShoppingCart size={22} />
-            {itemCount > 0 && (
-              <span className="absolute -top-1 -right-1 bg-red-500 text-white text-[10px] font-bold rounded-full h-5 w-5 flex items-center justify-center border-2 border-white shadow-sm">
-                {itemCount}
-              </span>
-            )}
-          </Link>
+          <div className="flex items-center gap-2 md:gap-4">
+            <Link className="relative p-2 bg-amber-50 rounded-full text-amber-700" to="/cart">
+              <ShoppingCart size={22} />
+              {itemCount > 0 && (
+                <span className="absolute -top-1 -right-1 bg-red-500 text-white text-[10px] font-bold rounded-full h-5 w-5 flex items-center justify-center border-2 border-white shadow-sm">
+                  {itemCount}
+                </span>
+              )}
+            </Link>
 
-          <div className="hidden md:flex items-center gap-4">
-            <div className={`px-3 py-1 rounded-full text-xs font-bold border ${isOnline ? "bg-green-50 text-green-700" : "bg-red-50 text-red-700"}`}>
-              {isOnline ? "ONLINE 🟢" : "OFFLINE 🔴"}
+            <div className="hidden md:flex items-center gap-4">
+              <div className={`px-3 py-1 rounded-full text-xs font-bold border ${isOnline ? "bg-green-50 text-green-700" : "bg-red-50 text-red-700"}`}>
+                {isOnline ? "ONLINE 🟢" : "OFFLINE 🔴"}
+              </div>
+              <button className="bg-amber-900 text-white px-5 py-2 rounded-xl font-bold" onClick={() => setButtonState(buttonState === "Login" ? "Logout" : "Login")}>
+                {buttonState}
+              </button>
             </div>
-            <button className="bg-amber-900 text-white px-5 py-2 rounded-xl font-bold" onClick={() => setButtonState(buttonState === "Login" ? "Logout" : "Login")}>
-              {buttonState}
+
+            <button className="md:hidden p-2 text-amber-900" onClick={toggleMenu}>
+              {isMenuOpen ? <X size={28} /> : <Menu size={28} />}
             </button>
           </div>
-
-          <button className="md:hidden p-2 text-amber-900" onClick={toggleMenu}>
-            {isMenuOpen ? <X size={28} /> : <Menu size={28} />}
-          </button>
         </div>
       </div>
 

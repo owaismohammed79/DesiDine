@@ -18,11 +18,9 @@ const AppLayout = (): ReactElement => {
   return (
     <Provider store={appStore}>
       <UserContext.Provider value={userData}>
-        <div className="min-h-screen overflow-x-hidden bg-[#fff7d6]">
-          <div className="p-4 mx-auto max-w-[1200px]">
+        <div className="min-h-screen bg-[#fff7d6]">
             <Header />
-          </div>
-          <div className="relative z-20 bg-[#fff7d6] mb-[600px] md:mb-[300px]">
+          <div className="relative z-20 bg-[#fff7d6] pt-28 mb-[600px] md:mb-[300px]">
             <div className="max-w-[1200px] mx-auto px-2 pb-10">
               <Outlet />
             </div>
