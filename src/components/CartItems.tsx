@@ -17,7 +17,7 @@ function CartItems() {
         {items.map((item) => (
             <div
             key={item.id}
-            className="p-4 border rounded flex justify-between"
+            className="p-4 border rounded-xl flex justify-between bg-amber-400"
             >
             <div>
                 <h3 className="font-semibold">{item.name}</h3>

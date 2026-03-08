@@ -10,6 +10,7 @@ import { Provider } from "react-redux";
 import appStore from "./store/appStore";
 import CartItems from "./components/CartItems";
 import Shimmer from "./components/Shimmer"
+import Footer from "./components/Footer";
 
 const AppLayout = (): ReactElement => {
   const [userData, setUserData] = useState({ userInfo: "John Doe" });
@@ -17,10 +18,17 @@ const AppLayout = (): ReactElement => {
   return (
     <Provider store={appStore}>
       <UserContext.Provider value={userData}>
-        <div className="mx-4 my-2 max-w-[900px] md:mx-auto">
-          <Header />
-          <Outlet />
+        <div className="min-h-screen overflow-x-hidden bg-[#fff7d6]">
+          <div className="p-4 mx-auto max-w-[1200px]">
+            <Header />
+          </div>
+          <div className="relative z-20 bg-[#fff7d6] mb-[600px] md:mb-[300px]">
+            <div className="max-w-[1200px] mx-auto px-2 pb-10">
+              <Outlet />
+            </div>
+          </div>
         </div>
+        <Footer />
       </UserContext.Provider>
     </Provider>
   );
