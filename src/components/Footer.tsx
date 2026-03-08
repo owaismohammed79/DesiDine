@@ -3,8 +3,8 @@ import { Link } from 'react-router'
 
 const Footer = () => {
   return (
-    <footer className="fixed bottom-0 left-0 w-full h-[600px] md:h-[300px] z-10 bg-amber-950 text-amber-50/80 p-8 flex items-center rounded-t-4xl">
-        <div className='max-w-[1200px] mx-auto grid grid-cols-1 md:grid-cols-4 gap-8 md:gap-12 w-full'>
+    <footer className="w-full h-[600px] md:h-[300px] bg-amber-950 text-amber-50/80 p-8 flex items-center rounded-t-4xl">
+        <div className='max-w-[1200px] mx-auto grid grid-cols-1 md:grid-cols-4 gap-8 md:gap-12'>
             <div className='md:col-span-2 flex flex-col gap-2 md:gap-4 text-center md:text-left items-center md:items-start'>
                 <div className="w-28 border rounded flex overflow-hidden mb-1">
                     <img
