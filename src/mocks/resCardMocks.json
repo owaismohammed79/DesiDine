@@ -4,5 +4,6 @@
     "rating": 4.2,
     "location": "The Palace, Godadara Road",
     "promoted": true,
-    "imgUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/RX_THUMBNAIL/IMAGES/VENDOR/2025/1/28/a44aaf25-3312-47f1-b028-6a28e9da5513_1026651.jpg"
+    "imgUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/RX_THUMBNAIL/IMAGES/VENDOR/2025/1/28/a44aaf25-3312-47f1-b028-6a28e9da5513_1026651.jpg",
+    "deliveryTime": "25"
 }
