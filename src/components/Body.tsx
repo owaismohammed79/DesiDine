@@ -1,5 +1,5 @@
 import React, { ReactElement, useEffect, useState, KeyboardEvent } from "react";
-import useFetchRestaurants from "../utils/useFetchRestaurants";
+import useFetchRestaurants from "../hooks/useFetchRestaurants";
 import { RestaurantList } from "../types/restaurant";
 import RestaurantCard, {withPromotedLabel} from "./RestaurantCard";
 import Shimmer from "./Shimmer";

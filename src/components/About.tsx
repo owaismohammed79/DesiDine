@@ -1,5 +1,5 @@
 import { ReactElement } from 'react'
-import { useUsers } from '../utils/useUsers'
+import { useUsers } from '../hooks/useUsers'
 import Shimmer from './Shimmer'
 
 function About(): ReactElement {

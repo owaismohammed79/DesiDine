@@ -1,5 +1,5 @@
 import { useParams } from "react-router";
-import useRestaurantMenu from "../utils/useRestaurantMenu";
+import useRestaurantMenu from "../hooks/useRestaurantMenu";
 import ListItems from "./ListItems";
 import { useState } from "react";
 import { ChevronDown, ChevronUp, Star } from 'lucide-react';
