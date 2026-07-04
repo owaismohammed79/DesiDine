@@ -1,6 +1,6 @@
 import { ReactElement, useState, useEffect } from "react";
 import { Link } from "react-router";
-import useOnlineStatus from "../utils/useOnlineStatus";
+import useOnlineStatus from "../hooks/useOnlineStatus";
 import { ShoppingCart, User, Menu, X } from 'lucide-react';
 import { useSelector } from "react-redux";
 
@@ -25,14 +25,16 @@ function Header(): ReactElement {
     <>
       <div className="fixed top-0 left-0 w-full z-50 p-4">
         <div className="h-20 flex justify-between items-center px-6 py-2 bg-white/80 backdrop-blur-md shadow-md border border-amber-100 rounded-2xl max-w-[1200px] mx-auto">
-          <div className="w-18 border rounded flex overflow-hidden">
-            <img
-              src="https://graphicsfamily.com/wp-content/uploads/edd/2021/11/Logo-Template-for-Food--1536x864.jpg"
-              alt="logo"
-              className="h-full object-cover"
-            />
+          <div className="md:w-1/3">
+            <div className="w-18 border rounded flex overflow-hidden">
+              <img
+                src="https://graphicsfamily.com/wp-content/uploads/edd/2021/11/Logo-Template-for-Food--1536x864.jpg"
+                alt="logo"
+                className="h-full object-cover"
+              />
+            </div>
           </div>
-          <nav className="hidden md:block">
+          <nav className="hidden md:w-1/3 md:flex md:justify-around md:items-center">
             <ul className="flex items-center gap-8 font-medium text-amber-900/80">
               <li className="hover:text-amber-600 transition-colors"><Link to="/">Home</Link></li>
               <li className="hover:text-amber-600 transition-colors"><Link to="/about">About</Link></li>
@@ -40,7 +42,7 @@ function Header(): ReactElement {
             </ul>
           </nav>
 
-          <div className="flex items-center gap-2 md:gap-4">
+          <div className="md:w-1/3 flex justify-around md:justify-end items-center gap-2 md:gap-4">
             <Link className="relative p-2 bg-amber-50 rounded-full text-amber-700" to="/cart">
               <ShoppingCart size={22} />
               {itemCount > 0 && (

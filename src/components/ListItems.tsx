@@ -10,7 +10,7 @@ function ListItems({ category, isOpen }) {
   }
 
   function removeFromCart(item) {
-    console.log(item)
+    // console.log(item)
     dispatch(removeItem(item))
   }
 

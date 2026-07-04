@@ -18,9 +18,9 @@ const AppLayout = (): ReactElement => {
   return (
     <Provider store={appStore}>
       <UserContext.Provider value={userData}>
-        <div className="bg-[#fff7d6]">
+        <div className="min-h-screen flex flex-col bg-[#fff7d6]">
             <Header />
-          <div className="z-10 pt-28 bg-[#fff7d6]">
+          <div className="flex-1 z-10 pt-28 bg-[#fff7d6]">
             <div className="max-w-[1200px] mx-auto px-2">
               <Outlet />
             </div>

@@ -1,5 +1,5 @@
 import { useParams } from "react-router";
-import useRestaurantMenu from "../hooks/useRestaurantMenu";
+import useRestaurantMenu from "../utils/useRestaurantMenu";
 import ListItems from "./ListItems";
 import { useState } from "react";
 import { ChevronDown, ChevronUp, Star } from 'lucide-react';
@@ -8,9 +8,9 @@ function RestaurantMenu() {
   const { id } = useParams<{ id: string }>();
   const { menuData } = useRestaurantMenu(id);
   const [openCard, setOpenCard] = useState(null);
-  console.log(menuData)
+  // console.log(menuData)
 
-  if (!menuData) return <div>Loading restaurant data...</div>;
+  if (!menuData) return <div className="mt-12 text-xl font-semibold text-center">Loading restaurant data...</div>;
 
   function handleCardClick(ind){
     setOpenCard(prev => prev === ind ? null : ind) 
