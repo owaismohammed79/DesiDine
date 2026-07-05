@@ -4,12 +4,14 @@ import { RestaurantList } from "../types/restaurant";
 import RestaurantCard, {withPromotedLabel} from "./RestaurantCard";
 import Shimmer from "./Shimmer";
 import { Search, SlidersHorizontal } from "lucide-react";
+import useDebounce from "../hooks/useDebounce";
 
 
 function Body():ReactElement {
   const [resList, setResList] = useState<RestaurantList>([]);
   const [filteredList, setFilteredList] = useState<RestaurantList>([]);
   const [searchText, setSearchText] = useState("");
+  const debouncedSearchText = useDebounce(searchText, 500)
 
   //We need to create a component by calling this
   const PromotedRestaurantCard = withPromotedLabel(RestaurantCard);
@@ -23,10 +25,15 @@ function Body():ReactElement {
     fn();
   }, []);
 
-  function handleSearch(): void {
-    const arr = resList.filter((res) =>res.name.toLowerCase().includes(searchText.toLowerCase())); //If you simply equate and compare, its an issue
+  useEffect(() => {
+    if(!debouncedSearchText) {
+      setFilteredList(resList)
+      return;
+    }
+
+    const arr = resList.filter((res) =>res.name.toLowerCase().includes(debouncedSearchText.toLowerCase())); //If you simply equate and compare, its an issue
     setFilteredList(arr);
-  }
+  }, [debouncedSearchText, resList])
 
   if (resList.length === 0) {
     return <Shimmer />
@@ -45,13 +52,7 @@ function Body():ReactElement {
             className="w-full pl-12 pr-32 py-4 bg-white border border-amber-100 rounded-2xl shadow-sm focus:shadow-xl focus:border-amber-400 focus:outline-none transition-all text-gray-700 text-lg placeholder:text-amber-200"
             value={searchText}
             onChange={(e) => setSearchText(e.target.value)}
-            onKeyDown={(e) => e.key === "Enter" && handleSearch()}
           />
-          <button 
-            onClick={handleSearch}
-            className="absolute right-2 top-2 bottom-2 px-6 bg-amber-500 text-white rounded-xl font-bold hover:bg-amber-600 transition-all cursor-pointer shadow-md">
-            Search
-          </button>
         </div>
 
       </div>
