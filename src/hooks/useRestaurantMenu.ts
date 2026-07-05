@@ -8,7 +8,7 @@ const useRestaurantMenu = (id: string | undefined) => {
     }, [id]);
     const fetchMenu = async() => {
         try {
-            // console.log('id', id)
+            console.log('id', id)
             let data = await fetch(`https://foodfire.onrender.com/api/menu?page-type=REGULAR_MENU&complete-menu=true&lat=12.959913533262798&lng=77.5499909&&submitAction=ENTER&restaurantId=${id}`);
             data = await data.json();
             console.log('data', data)

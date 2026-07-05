@@ -25,7 +25,7 @@ function ListItems({ category, isOpen }) {
             <div>
               <h3 className="font-semibold text-lg">{item.card.info.name}</h3>
               <p className="text-xl text-gray-500 my-2">
-                ₹{item.card.info.price / 100}
+                ₹{item.card.info.price ? (item.card.info.price/100) : (item.card.info.defaultPrice/100)}
               </p>
             </div>
             <div className="relative">
@@ -37,12 +37,12 @@ function ListItems({ category, isOpen }) {
               )}
               <button
                 data-testid="addBtn"
-                className="absolute bottom-0 left-1/4 -translate-x-1/2 translate-y-1/2 bg-black text-white px-2 py-1 text-xs rounded-md whitespace-nowrap w-7 h-7"
+                className="absolute bottom-0 left-1/4 -translate-x-1/2 translate-y-1/2 bg-black text-white px-2 py-1 text-xs rounded-md whitespace-nowrap w-7 h-7 cursor-pointer"
                 onClick={() => addToCart(item.card.info)}
               >
                 +
               </button>
-              <button className="absolute bottom-0 left-3/4 -translate-x-1/2 translate-y-1/2 bg-black text-white px-2 py-1 text-xs rounded-md whitespace-nowrap w-7 h-7" onClick={(e) => removeFromCart(item.card.info)}>-</button>
+              <button className="absolute bottom-0 left-3/4 -translate-x-1/2 translate-y-1/2 bg-black text-white px-2 py-1 text-xs rounded-md whitespace-nowrap w-7 h-7 cursor-pointer" onClick={(e) => removeFromCart(item.card.info)}>-</button>
             </div>
           </div>
         ))}

@@ -80,7 +80,7 @@ function Header(): ReactElement {
           <li onClick={toggleMenu}><Link to="/about">About Us</Link></li>
           <li onClick={toggleMenu}><Link to="/contact">Contact</Link></li>
           <li className="pt-6 border-t border-amber-100">
-            <button className="w-full py-4 bg-amber-900 text-white rounded-2xl" onClick={() => { 
+            <button className="w-full py-4 bg-amber-900 text-white rounded-2xl cursor-pointer" onClick={() => { 
                 setButtonState(buttonState === "Login" ? "Logout" : "Login") 
               }}>
                 {buttonState}

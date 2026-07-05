@@ -1,14 +1,17 @@
-import { useParams } from "react-router";
-import useRestaurantMenu from "../utils/useRestaurantMenu";
+import { useParams, useNavigate } from "react-router";
+import useRestaurantMenu from "../hooks/useRestaurantMenu";
 import ListItems from "./ListItems";
 import { useState } from "react";
-import { ChevronDown, ChevronUp, Star } from 'lucide-react';
+import { ChevronDown, ChevronUp, Star, MoveLeft } from 'lucide-react';
+import * as framer from "motion/react";
+const motion = framer.motion || (framer as any).default?.motion;
 
 function RestaurantMenu() {
   const { id } = useParams<{ id: string }>();
+  const navigate = useNavigate()
   const { menuData } = useRestaurantMenu(id);
   const [openCard, setOpenCard] = useState(null);
-  // console.log(menuData)
+  console.log(menuData)
 
   if (!menuData) return <div className="mt-12 text-xl font-semibold text-center">Loading restaurant data...</div>;
 
@@ -16,8 +19,20 @@ function RestaurantMenu() {
     setOpenCard(prev => prev === ind ? null : ind) 
   }
 
+  function handleBackClick(){
+    if(window.history.state && window.history.state.idx > 0) { //This simply checks if the restaurant route is hit directly, then browser
+      //doesnt have anything to show, so we can redirect the user to / route
+      navigate(-1)
+    } else {
+      navigate('/', { replace: true }) 
+    }
+  }
+
   return (
-    <div className="w-3/4 mx-auto">     
+    <div className="w-3/4 mx-auto">
+      <motion.button whileHover={{ x: -5 }} transition={{ type: 'spring' }} className="cursor-pointer" onClick={handleBackClick}>
+        <MoveLeft />
+      </motion.button>
       <div className="text-[32px] font-semibold my-2">{menuData.name}</div>
       <div className="flex gap-1 px-2 items-center bg-green-600 text-white w-20 justify-center rounded-lg p-1">
         <p className="text-xl">{menuData.rating}</p>
