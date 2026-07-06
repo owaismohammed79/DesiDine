@@ -1,3 +1,5 @@
+//Currently not in use, shifted to RTK query
+
 import { useState, useEffect } from "react";
 
 const useRestaurantMenu = (id: string | undefined) => {

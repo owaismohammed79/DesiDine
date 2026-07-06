@@ -1,43 +1,33 @@
-import React, { ReactElement, useEffect, useState, KeyboardEvent } from "react";
-import useFetchRestaurants from "../hooks/useFetchRestaurants";
-import { RestaurantList } from "../types/restaurant";
+import React, { ReactElement, useMemo, useState } from "react";
 import RestaurantCard, {withPromotedLabel} from "./RestaurantCard";
 import Shimmer from "./Shimmer";
-import { Search, SlidersHorizontal } from "lucide-react";
+import { Search } from "lucide-react";
 import useDebounce from "../hooks/useDebounce";
+import { useGetRestaurantsQuery } from "../store/restaurantApi";
 
 
 function Body():ReactElement {
-  const [resList, setResList] = useState<RestaurantList>([]);
-  const [filteredList, setFilteredList] = useState<RestaurantList>([]);
+  const {data: resList = [], isLoading, isError, isUninitialized } = useGetRestaurantsQuery();
   const [searchText, setSearchText] = useState("");
   const debouncedSearchText = useDebounce(searchText, 500)
 
   //We need to create a component by calling this
   const PromotedRestaurantCard = withPromotedLabel(RestaurantCard);
 
-  useEffect(() => {
-    const fn = async () => {
-      const data = await useFetchRestaurants();
-      setResList(data);
-      setFilteredList(data);
-    };
-    fn();
-  }, []);
-
-  useEffect(() => {
-    if(!debouncedSearchText) {
-      setFilteredList(resList)
-      return;
-    }
-
-    const arr = resList.filter((res) =>res.name.toLowerCase().includes(debouncedSearchText.toLowerCase())); //If you simply equate and compare, its an issue
-    setFilteredList(arr);
+  const filteredList = useMemo(() => {
+    //Remember ke useMemo me either we've to return a val or mutate
+    if (!debouncedSearchText || !resList) return resList;
+    
+    return resList.filter((res) =>
+      res.name.toLowerCase().includes(debouncedSearchText.toLowerCase()) //If you simply equate and compare, its an issue
+    );
   }, [debouncedSearchText, resList])
 
-  if (resList.length === 0) {
+  if (isLoading || isUninitialized) {
     return <Shimmer />
   }
+
+  if(isError) return <div className="text-center py-20 text-xl font-bold text-red-500">Failed to load restaurants</div>;
 
   return (
     <div className="mx-auto px-4 py-8">

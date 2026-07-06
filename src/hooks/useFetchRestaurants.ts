@@ -1,3 +1,5 @@
+//Currently not in use, shifted to RTK query
+
 import React from "react";
 import { RestaurantList } from "../types/restaurant";
 
