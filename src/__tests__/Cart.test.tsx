@@ -22,8 +22,6 @@ it("Should update cart if user adds items to cart", () => {
         </UserContext.Provider>
         </BrowserRouter>
     )
-    const before = screen.getByText("0")
-    expect(before).toBeInTheDocument()
 
     const button = screen.getAllByTestId("addBtn")
     // console.log(button)

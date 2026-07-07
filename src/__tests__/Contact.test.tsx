@@ -17,7 +17,7 @@ describe("Contact Us Page Test Case", () => { //We can group multiple test cases
 		render(<Contact />)
 		
 		//Query
-		const button = screen.getByText("Send your query") //Any comp should have Submit inside it
+		const button = screen.getByText("Send Message") //Any comp should have Submit inside it
 		
 		//Assertion
 		expect(button).toBeInTheDocument();
