@@ -39,6 +39,7 @@ function Body():ReactElement {
           <input
             type="text"
             placeholder="Search for restaurants..."
+            data-testid="search-input"
             className="w-full pl-12 pr-32 py-4 bg-white border border-amber-100 rounded-2xl shadow-sm focus:shadow-xl focus:border-amber-400 focus:outline-none transition-all text-gray-700 text-lg placeholder:text-amber-200"
             value={searchText}
             onChange={(e) => setSearchText(e.target.value)}

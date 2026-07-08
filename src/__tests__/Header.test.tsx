@@ -15,7 +15,7 @@ it("Should render Header component", () => {
         </BrowserRouter>
     )
     
-    const loginButton = screen.getByRole("button")
+    const loginButton = screen.getAllByRole("button", {name: "Login"})[0]
 
     // const searchInput = screen.getByTestId("searchInput")
     //If you aren't able to extrcct the component using any usual get fns then make use of the getByTestId()
@@ -36,12 +36,12 @@ it("Should change login to logout button", () => {
         </BrowserRouter>
     )
 
-    const loginButton = screen.getByRole("button", {name: "Login"})
+    const loginButton = screen.getAllByRole("button", {name: "Login"})[0]
 
     //Simulating click event on the button
     fireEvent.click(loginButton)
 
-    const logoutButton = screen.getByRole("button", {name: "Logout"})
+    const logoutButton = screen.getAllByRole("button", {name: "Logout"})[0]
     expect(logoutButton).toBeInTheDocument();
 
 })

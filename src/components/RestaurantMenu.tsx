@@ -4,7 +4,7 @@ import { useState } from "react";
 import { ChevronDown, ChevronUp, Star, MoveLeft } from 'lucide-react';
 import * as framer from "motion/react";
 import { useGetMenuQuery } from "../store/restaurantApi";
-const motion = framer.motion || (framer as any).default?.motion;
+const motion = framer.motion;
 
 function RestaurantMenu() {
   const { id } = useParams<{ id: string }>();
