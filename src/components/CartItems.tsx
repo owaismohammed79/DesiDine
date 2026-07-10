@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useMemo } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { clearCart } from "../store/cartSlice";
 
@@ -6,10 +6,18 @@ function CartItems() {
   const items = useSelector((state: any) => state.cart.items);
   const dispatch = useDispatch()
 
+  const cartTotal = useMemo(() => {
+    return items.reduce((total: number, item) => {
+      const itemPrice = Number(item.price) || Number(item.defaultPrice) || 0
+      const quantity = Number(item.quantity) || 1
+      return total + (itemPrice / 100) * quantity
+    }, 0)
+  }, [items]);
+
     if(items.length === 0) return (<div className="m-4 text-xl font-bold text-center">No Items in Cart!</div>)
 
   return (
-    <>
+    <div className="pb-12">
         <div>
             <button className="bg-black text-white rounded-md px-2 py-1 mt-4 cursor-pointer" onClick={() => dispatch(clearCart())}>Clear Cart</button>
         </div>
@@ -26,7 +34,7 @@ function CartItems() {
                     <span className="ml-2 text-gray-500">x {item.quantity || 1}</span>
                 </p>
                 <p className="text-sm font-bold mt-1 text-amber-900">
-                    Subtotal: ₹{(item.price / 100) * (item.quantity || 1)}
+                    Subtotal: ₹{(item.price? item.price/100  : (item.defaultPrice? item.defaultPrice/ 100: 0)) * (item.quantity || 1)}
                 </p>
             </div>
             <div className="relative ml-4">
@@ -46,7 +54,12 @@ function CartItems() {
             </div>
         ))}
         </div>
-    </>
+        <div className="mt-6 border-t border-amber-300 pt-4 flex justify-end">
+          <h2 className="text-xl font-black text-amber-950">
+            Total: ₹{cartTotal}
+          </h2>
+        </div>
+    </div>
   );
 }
 
